@@ -51,7 +51,7 @@ export default function Sliding() {
   return (
     <>
       {/* Slider */}
-      <div className="relative pt-[85px]">
+      <div className="relative ">
         <Slider {...sliderSettings}>
           {images.map((src, index) => (
             <div key={index} className="relative">
