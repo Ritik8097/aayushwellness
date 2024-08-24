@@ -94,7 +94,11 @@ nav {
     color: rgba(111, 107, 103, .7);
     padding: 10px;
     text-shadow: none;
-  
+   position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 9999999;
 }
 
 li{
