@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -56,18 +57,20 @@ export default function SliderThird() {
   return (
     <>
       {/* Slider */}
-      <div className="relative mt-9 md:pb-[17px] pb-[7px]">
-        <div className="backdrop-blur-2xl absolute bottom-0 gap-6 w-full z-10 flex justify-center items-center" style={{background:'rgba(255, 255, 255, 0.3)'}}>
+      <div className=" js relative mt-9 ">
+       
+        <div className="backdrop-blur-2xl md:p-[17px] p-[14px] absolute bottom-0 gap-6 w-full z-10 flex justify-center items-center" style={{background:'rgba(255, 255, 255, 0.3)'}}>
           {images.map((src, index) => (
             <div key={index}>
-              <img className=' md:h-24 h-24 p-1 md:p-3' src={src} alt={`Thumbnail ${index + 1}`} />
+              <img  className=' md:h-24 h-[4.7rem]  md:p-3 ' src={src} alt={`Thumbnail ${index + 1}`} />
             </div>
           ))}
+       
         </div>
         <Slider {...sliderSettings}>
           {images.map((src, index) => (
             <div key={index} className="relative">
-              <img loading='lazy' className="w-full object-contain" src={src} alt={`Slide ${index + 1}`} />
+              <img  loading='lazy' className="w-full object-contain " src={src} alt={`Slide ${index + 1}`} />
             </div>
           ))}
         </Slider>
