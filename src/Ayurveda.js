@@ -33,7 +33,7 @@ function Ayurveda() {
           <div>
             <div className="relative">
               <img   loading='lazy' className=" w-full  hidden md:block" src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Wellness_You_-_What_Is_Ayurveda.jpg?v=1724334008" alt="Slide 1" />
-             <img className=' w-full block md:hidden' src='https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Ayurveda_banner_mobile.jpg?v=1724405336' />
+             <img className=' w-full block md:hidden' src='https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Ayurveda_banner_mobile_1.jpg?v=1724670357' />
             </div>
            
             
