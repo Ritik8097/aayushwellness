@@ -33,7 +33,7 @@ export default function Sliding() {
   const mobileImages = [
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_1_-_400px_X_520px.jpg?v=1724330750",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_1_-_400px_X_520px_2.jpg?v=1724405336",
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_400px_X_520px_1.jpg?v=1724405337",
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_400px_X_520px_2.jpg?v=1724668205",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_3_-_400px_X_520px.jpg?v=1724325296",
     
   ];
