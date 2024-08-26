@@ -78,7 +78,7 @@ export default function CompanyIntro() {
               src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/website_about_us_our_story_1.jpg?v=1724405337"
               alt="Slide 1"
             />
-            <img className=' w-full block md:hidden' src='https://cdn.shopify.com/s/files/1/0674/9614/9171/files/MOBILE_SIZE_ABOUT_US_OUR_STORY.jpg?v=1724405336' />
+            <img className=' w-full block md:hidden' src='https://cdn.shopify.com/s/files/1/0674/9614/9171/files/MOBILE_SIZE_ABOUT_US_OUR_STORY_1.jpg?v=1724668205' />
           </div>
           {/* Add more slides if needed */}
         
