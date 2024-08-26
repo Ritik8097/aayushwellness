@@ -24,7 +24,7 @@ function Sustnability() {
           <div>
             <div className="relative"> 
               <img   loading='lazy' className="w-full hidden md:block" src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/sustainability_banner_new.jpg?v=1724326525" alt="Slide 1" />
-              <img   loading='lazy' className="w-full block md:hidden" src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/sustainability_banner_mobile_new.jpg?v=1724326524" alt="Slide 1" />
+              <img   loading='lazy' className="w-full block md:hidden" src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/sustainability_banner_mobile_new_1.jpg?v=1724668205" alt="Slide 1" />
              
             </div>
            
