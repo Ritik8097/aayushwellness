@@ -168,7 +168,7 @@ export default function Header() {
            
            {/* Search Input */}
            <button  onClick={toggleSearch} className="   pl-[20px] pr-3  relative hidden md:flex">
-                <img src={searchIcon} alt="Search" className="h-6 w-6" />
+                <img class="js" src={searchIcon} alt="Search" className="h-6 w-6" />
               </button>
     {isSearchOpen && (
                 <div class="sp" className=" hidden md:flex  absolute right-44 top-16 z-[99999]">
