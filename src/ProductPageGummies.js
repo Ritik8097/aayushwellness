@@ -29,7 +29,7 @@ const ProductGummies = () => {
   return (
     <>
       <Header />
-      <section className="py-12 bg-gray-50">
+      <section className="py-12 bg-gray-50 pt-[85px]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Carousel Section */}
@@ -46,7 +46,7 @@ const ProductGummies = () => {
                   <img
                     src={images[currentIndex]}
                     alt={`Product Image ${currentIndex + 1}`}
-                    className="w-full h-auto rounded-lg"
+                    className=" js w-full h-auto rounded-lg"
                   />
                 )}
                 <button
@@ -81,7 +81,7 @@ const ProductGummies = () => {
                       <img
                         src={image}
                         alt={`Thumbnail ${index + 1}`}
-                        className="w-full h-full object-cover rounded-lg"
+                        className=" js w-full h-full object-cover rounded-lg"
                       />
                     )}
                   </div>
