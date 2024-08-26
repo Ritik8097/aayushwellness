@@ -53,7 +53,7 @@ export default function Footer() {
                     <div>
                         <h3 className="font-bold text-lg" style={{color:'#d1a272'}}>Corporate</h3>
                         <ul className="mt-2 space-y-2">
-                            <li><Link to="/career" className="text-muted-foreground hover:text-primary" style={{color:'#707070'}}>Carrer</Link></li>
+                            <li><Link to="/career" className="text-muted-foreground hover:text-primary" style={{color:'#707070'}}>Careers</Link></li>
                             <li><Link to="/privacy-policy" className="text-muted-foreground hover:text-primary" style={{color:'#707070'}}>Privacy Policy</Link></li>
                             
                         </ul>
