@@ -156,7 +156,7 @@ export default function Header() {
                 </div>
               </div>
 
-              <Link to="/career" className=" hover:text-primary/80">Career</Link>
+              <Link to="/career" className=" hover:text-primary/80">Careers</Link>
               <Link to="/support" className=" hover:text-primary/80">Support</Link>
               
             
@@ -323,7 +323,7 @@ export default function Header() {
               )}
             </div>
 
-            <Link to="/career" className="block py-2 px-4  hover:text-primary/80">Career</Link>
+            <Link to="/career" className="block py-2 px-4  hover:text-primary/80">Careers</Link>
             <Link to="/support" className="block py-2 px-4  hover:text-primary/80">Support</Link>
           </div>
           
