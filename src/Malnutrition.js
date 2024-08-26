@@ -25,7 +25,7 @@ function Malnutrition() {
           <div>
             <div className="relative">
               <img   loading='lazy' className="w-full hidden md:block " src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/csr_banner.png?v=1723885170" alt="Slide 1" />
-              <img   loading='lazy' className="w-full block md:hidden" src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/csr_banner_mobile.jpg?v=1724313280" alt="Slide 1" />
+              <img   loading='lazy' className="w-full block md:hidden" src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/csr_banner_mobile_2.jpg?v=1724672971" alt="Slide 1" />
              
             </div>
            
