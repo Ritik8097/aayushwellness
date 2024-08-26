@@ -62,7 +62,7 @@ const ProductPageSleep = () => {
                   &gt;
                 </button>
               </div>
-              <div className="flex space-x-2 mt-4 overflow-x-auto">
+              <div className="js flex space-x-2 mt-4 overflow-x-auto">
                 {images.map((image, index) => (
                   <div
                     key={index}
@@ -90,7 +90,7 @@ const ProductPageSleep = () => {
             </div>
 
             {/* Product Details Section */}
-            <div className="flex flex-col justify-start">
+            <div className="flex flex-col justify-start pt-[85px]">
               <h1 className="text-3xl font-bold text-gray-900 mb-2">Aayush Sleep Gummies</h1>
               <p className="text-base text-gray-500 mb-4">100% Effective And Help To Restful Night Sleeps.</p>
               <div className="flex items-center mb-4">
