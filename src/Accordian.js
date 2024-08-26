@@ -48,8 +48,8 @@ const Accordionweb = () => {
 
   // Mobile and desktop images
   const mobileImages = [
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Investors_banner_mobile.jpg?v=1724326523",
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/investors_banner_2_mobile.jpg?v=1724326523",
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Investors_banner_mobile_1.jpg?v=1724668205",
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/investors_banner_2_mobile_1.jpg?v=1724668205",
    
   ];
 
