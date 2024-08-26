@@ -34,7 +34,7 @@ const ProductGummies = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Carousel Section */}
             <div className="relative">
-              <div className="relative overflow-hidden">
+              <div className="js overflow-hidden">
                 {/* Display either an image or video based on the currentIndex */}
                 {currentIndex === images.length ? (
                   <video
@@ -46,7 +46,7 @@ const ProductGummies = () => {
                   <img
                     src={images[currentIndex]}
                     alt={`Product Image ${currentIndex + 1}`}
-                    className=" js w-full h-auto rounded-lg"
+                    className="  w-full h-auto rounded-lg"
                   />
                 )}
                 <button
@@ -62,7 +62,7 @@ const ProductGummies = () => {
                   &gt;
                 </button>
               </div>
-              <div className="flex space-x-2 mt-4 overflow-x-auto">
+              <div className="js flex space-x-2 mt-4 overflow-x-auto">
                 {images.map((image, index) => (
                   <div
                     key={index}
@@ -81,7 +81,7 @@ const ProductGummies = () => {
                       <img
                         src={image}
                         alt={`Thumbnail ${index + 1}`}
-                        className=" js w-full h-full object-cover rounded-lg"
+                        className="  w-full h-full object-cover rounded-lg"
                       />
                     )}
                   </div>
@@ -90,7 +90,7 @@ const ProductGummies = () => {
             </div>
 
             {/* Product Details Section */}
-            <div className="flex flex-col justify-start">
+            <div className="flex flex-col justify-start md:pt-[85px]">
               <h1 className="text-3xl font-bold text-gray-900 mb-2">Aayush Beauty Gummies</h1>
               <p className="text-base text-gray-500 mb-4">100% Effective And Help To Glow.</p>
               <div className="flex items-center mb-4">
