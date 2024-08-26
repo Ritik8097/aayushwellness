@@ -31,7 +31,7 @@ function Support() {
     return (
         <>
         <Header/>
-        <div className="relative overflow-hidden bg-white rounded-3xl shadow-lg max-w-3xl mx-auto min-h-[480px] p-8 mt-11 mb-11">
+        <div className="relative overflow-hidden bg-white rounded-3xl shadow-lg max-w-3xl mx-auto min-h-[480px] p-8 mt-11 mb-11 pt-[85px]">
             <h2 className="text-2xl font-semibold text-gray-700 mb-4">Contact Here</h2>
             <form onSubmit={onSubmit} className="flex flex-col items-center justify-center h-full p-10 bg-white">
                 <div className="w-full mb-4">
