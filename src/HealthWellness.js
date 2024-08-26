@@ -24,7 +24,7 @@ function HealthWellness() {
           <div>
             <div className="relative">
               <img   loading='lazy' className="w-full hidden md:block " src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Wellness_You_-_Health_Wellness_1.jpg?v=1724334009" alt="Slide 1" />
-               <img className='w-full block md:hidden' src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Wellness_You_-_Health_Wellness_mobile_1.jpg?v=1724409008" />
+               <img className='w-full block md:hidden' src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Wellness_You_-_Health_Wellness_mobile_1_1.jpg?v=1724668205" />
             </div>
            
             </div>
