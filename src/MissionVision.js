@@ -31,7 +31,7 @@ function MissionVision() {
 <img
           loading="lazy"
           className="w-full md:hidden block "
-          src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/MOBILE_SIZE_website_vision_banner.jpg?v=1724332504"
+          src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/MOBILE_SIZE_website_vision_banner_1.jpg?v=1724668205"
           alt="Vision Banner"
         />
       </div>
