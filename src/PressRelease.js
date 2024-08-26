@@ -243,7 +243,7 @@ function PressRelease() {
   return (
     <>
     <Header/>
-    <div className="bg-white text-gray-900">
+    <div className="bg-white text-gray-900 pt-[85px]">
       <div className="max-w-3xl mx-auto mt-10 pl-[25px] pr-[25px]">
         {articles.map((article, index) => (
           <div className="mb-8 " key={index}>
