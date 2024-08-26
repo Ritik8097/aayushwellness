@@ -76,7 +76,7 @@ function OurProduct() {
   return (
     <div>
       <Header />
-      <div className='product-grid'>
+      <div className='product-grid pt-[85px]'>
         {products.map((product, index) => (
           <ProductCard key={index} {...product} />
         ))}
