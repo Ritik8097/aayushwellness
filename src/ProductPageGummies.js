@@ -34,7 +34,7 @@ const ProductGummies = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Carousel Section */}
             <div className="relative">
-              <div className="js overflow-hidden">
+              <div className="relative overflow-hidden">
                 {/* Display either an image or video based on the currentIndex */}
                 {currentIndex === images.length ? (
                   <video
