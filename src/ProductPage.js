@@ -81,7 +81,7 @@ const ProductCarousel = () => {
               </div>
               <div className="relative mt-4">
                 <div
-                  className="flex space-x-2 mt-4 overflow-scroll scrollbar-hide"
+                  className="js flex space-x-2 mt-4 overflow-scroll scrollbar-hide"
                   style={{ transform: `translateX(${thumbOffset}px)`, transition: 'transform 0.5s ease' }}
                 >
                   {images.map((image, index) => (
@@ -105,7 +105,7 @@ const ProductCarousel = () => {
             </div>
 
             {/* Product Details Section */}
-            <div className="flex flex-col justify-start">
+            <div className="flex flex-col justify-start pt-[85px]">
               <h1 className="text-3xl font-bold text-gray-900 mb-2">Aayush Herbal Pan Masala</h1>
               <p className="text-base text-gray-500 mb-4">100% Natural And Chemical Free.</p>
               <div className="flex items-center mb-4">
