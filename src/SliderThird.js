@@ -59,7 +59,7 @@ export default function SliderThird() {
       {/* Slider */}
       <div className=" js relative mt-9 ">
        
-        <div className="backdrop-blur-2xl hidden md:block md:h-[40px] md:p-[17px] p-[14px] absolute bottom-0 gap-6 w-full z-10 flex justify-center items-center" style={{background:'rgba(255, 255, 255, 0.3)'}}>
+        <div className="backdrop-blur-2xl hidden md:flex md:h-[40px] md:p-[17px] p-[14px] absolute bottom-0 gap-6 w-full z-10 flex justify-center items-center" style={{background:'rgba(255, 255, 255, 0.3)'}}>
           {images.map((src, index) => (
             <div key={index}>
               <img  className=' md:h-24 h-[4.7rem]  md:p-3 ' src={src} alt={`Thumbnail ${index + 1}`} />
