@@ -42,13 +42,13 @@ export default function SliderThird() {
   const mobileImages = [
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_5_-_400px_X_520px.jpg?v=1724308030",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_4_-_400px_X_520px.jpg?v=1724308031",
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Product_Slider_Banner_-_Pan_Masala_-_400px_X_520px_1.jpg?v=1724330751"
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Product_Slider_Banner_-_Pan_Masala_-_400px_X_520px_1_2.jpg?v=1724668206"
   ];
 
   const desktopImages = [
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_4_-_1500px_X_500px.jpg?v=1723525081",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_5_-_1500px_X_500px_1.jpg?v=1724307521",
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Product_Slider_Banner_-_Pan_Masala_-_1500X_500px.jpg?v=1724140323"
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Product_Slider_Banner_-_Pan_Masala_-_1500X_500px_1.jpg?v=1724668205"
   ];
 
   // Choose images based on screen size
@@ -59,7 +59,7 @@ export default function SliderThird() {
       {/* Slider */}
       <div className=" js relative mt-9 ">
        
-        <div className="backdrop-blur-2xl md:p-[17px] p-[14px] absolute bottom-0 gap-6 w-full z-10 flex justify-center items-center" style={{background:'rgba(255, 255, 255, 0.3)'}}>
+        <div className="backdrop-blur-2xl hidden md:block md:h-[40px] md:p-[17px] p-[14px] absolute bottom-0 gap-6 w-full z-10 flex justify-center items-center" style={{background:'rgba(255, 255, 255, 0.3)'}}>
           {images.map((src, index) => (
             <div key={index}>
               <img  className=' md:h-24 h-[4.7rem]  md:p-3 ' src={src} alt={`Thumbnail ${index + 1}`} />
