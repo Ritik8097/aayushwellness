@@ -31,6 +31,7 @@ export default function Sliding() {
 
   // Mobile and desktop images
   const mobileImages = [
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/website_small_saches_banner_900x1120_5dfe17c8-7132-49da-b14b-b2bd0301ed12.jpg?v=1724759867",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_1_-_400px_X_520px_1.jpg?v=1724668205",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_1_-_400px_X_520px_3.jpg?v=1724668205",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_400px_X_520px_2.jpg?v=1724668205",
@@ -39,10 +40,12 @@ export default function Sliding() {
   ];
 
   const desktopImages = [
+      "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/website_small_saches_banner_1500x500_54b677f9-96e4-4454-8989-1d2b0c00d429.jpg?v=1724759867",
 "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_1_-_1500px_X_500px_3.jpg?v=1724310810",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_1_-_1500px_X_500px_1.jpg?v=1724307521",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/WhatsApp_Image_2024-08-20_at_11.35.51_AM_1.jpg?v=1724136184",
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_1500px_X_500px.jpg?v=1723547591"
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_1500px_X_500px.jpg?v=1723547591",
+  
   ];
 
   // Choose images based on screen size
