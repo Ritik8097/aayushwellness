@@ -14,7 +14,7 @@ const ProductGummies = () => {
     'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/beauty_gummy_product_banner_benefits_1.jpg?v=1724399086',
     'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Beauty_Gummies_Product_banner_-_Nutraceutical_Values_Corousal_1.jpg?v=1724399108',
     'https://iili.io/dWaG7LX.gif',
-    'https://iili.io/dWaG5Xt.gif'
+    
     
   ];
 
