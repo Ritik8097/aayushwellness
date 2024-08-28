@@ -1260,12 +1260,15 @@
         
         {
           "id": 3,
-          "header":"2016-17",
+          "header":"2019-20",
+          "quarter":"Quarter-1",
           "head": "CGR Non-applicability Letter 10",
           "link": "http://aayushwellness.com/wp-content/uploads/2024/03/CGR-Non-applicability-letter-10.pdf"
         },
         {
           "id": 4,
+          "header":"2019-20",
+          "quarter":"Quarter-1",
           "head": "IGR 11",
           "link": "http://aayushwellness.com/wp-content/uploads/2024/03/IGR-11.pdf"
         },
