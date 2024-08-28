@@ -31,7 +31,7 @@ const AccordionItem = ({ handleToggle, active, faq }) => {
                         text.map((item) => (
                             <div className=' pt-3 '>
                             <div > <h1   className=' text-sm  font-bold'>{item.header} </h1> </div>
-                           <div className="text-sm font-bold" > <h1>{item.quarter}</h1></div>
+                           <div className="text-sm pt-3" > <h1>{item.quarter}</h1></div>
                             <div >
                             <a  key={item.id} href={item.link} target="_blank" rel="noopener noreferrer" className="block  pt-2 underline hover:underline">
                              
