@@ -1705,69 +1705,81 @@
         },
         {
           "id": 94,
-          "head": "CGR Non-applicability Letter 6",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/CGR-Non-applicability-letter-6.pdf"
+          "header": "2022-23",
+          "quarter": "Quarter-1",
+          "head": "CGR Non-applicability Letter ",
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/CGR_Non_Applicability_letter_0ec64a3c-ccc6-40f4-8d7a-e086af00fdac.pdf?v=1724914520"
         },
         {
           "id": 95,
-          "head": "IGR BSE 4",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/IGR_BSE-4.pdf"
+          "head": "IGR",
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/IGR_8a9b0a9e-00b5-4363-b35b-3d8bbc066ec3.pdf?v=1724914520"
         },
-        {
-          "id": 96,
-          "head": "IGR MSEI 4",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/IGR_MSEI-4.pdf"
-        },
+        
         {
           "id": 97,
           "head": "Reg 745 9",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/Reg-745-9.pdf"
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Reg_74_5_82bcddbf-ab2e-499c-bb7e-958c3d3bda03.pdf?v=1724914520"
         },
         {
           "id": 98,
           "head": "Reg 76 10",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/Reg-76-10.pdf"
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Reg_76_b3d2dedb-767d-409f-8f16-8de0bedee591.pdf?v=1724914523"
         },
         {
           "id": 99,
           "head": "SHP 10",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/SHP-10.pdf"
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/SHP_d81e9d29-0052-4b87-9c87-2364024da054.pdf?v=1724914521"
         },
         {
           "id": 100,
           "head": "UFR 9",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/UFR-9.pdf"
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/UFR_6b7324c0-216c-4de0-af4f-7c72533acb62.pdf?v=1724914526"
         },
-        {
-          "id": 101,
-          "head": "AFR 4",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/AFR-4.pdf"
-        },
+        
         {
           "id": 102,
-          "head": "CGR Non-applicability Letter 7",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/CGR-Non-applicability-letter-7.pdf"
+          "quarter": "Quarter-2",
+          "head": "CGR Non-applicability Letter ",
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/CGR_Non_Applicability_letter_22894e86-f341-4251-b805-bef91e8ecad7.pdf?v=1724914815"
         },
         {
           "id": 103,
-          "head": "IGR 6",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/IGR-6.pdf"
+          "head": "IGR MSEI",
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/IGR_MSEI.pdf?v=1724914815"
+        },
+        {
+          "id": 107,
+          "head": "IGR BSE",
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/IGR_BSE.pdf?v=1724914814"
         },
         {
           "id": 104,
           "head": "Reg 76 11",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/Reg-76-11.pdf"
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Reg_76_a89e44ab-c066-4dc8-b251-af46f822f5c3.pdf?v=1724914816"
+        },
+        {
+          "id": 108,
+          "head": "Reg 74 ",
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Reg_74_5_6f2e7299-18a6-4a72-9829-6a843c084046.pdf?v=1724914815"
         },
         {
           "id": 105,
           "head": "SHP 11",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/SHP-11.pdf"
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/SHP_d02d3e20-9799-41c6-9885-c1da66c4df4b.pdf?v=1724914816"
         },
         {
           "id": 106,
           "head": "UFR 10",
-          "link": "http://aayushwellness.com/wp-content/uploads/2024/03/UFR-10.pdf"
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/UFR_644faf06-acfd-4d5a-8e60-b73462d0e8ad.pdf?v=1724914817"
+        },
+        {
+          "id": 109,
+          "head": "Non Applicability of Related Part Transaction",
+          "link": "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Non-Applicability_of_Related_Party_Transaction.pdf?v=1724914815"
         }
+        
+        
         
       ]
     }
