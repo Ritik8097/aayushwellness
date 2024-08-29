@@ -120,7 +120,42 @@ function Support() {
             </div>
         </div>
     </div>
-  
+    <div style={{boxSizing: 'border-box', marginLeft: '0px', marginRight: '0px'}}>
+        <div style={{width: '100%', float: 'left', boxSizing: 'border-box', paddingLeft: '0px', paddingRight: '0px', position: 'relative', minHeight: '1px'}}>
+            <div style={{boxSizing: 'border-box', paddingLeft: '0px', paddingRight: '0px', width: '100%'}}>
+                <div style={{boxSizing: 'border-box'}}>
+                    <div style={{boxSizing: 'border-box'}}>
+                        <div style={{boxSizing: 'border-box', textAlign: 'left'}}>
+                            <div style={{boxSizing: 'border-box', background: 'rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box', marginTop: '0px', marginBottom: '0px', display: 'flex', paddingBottom: '20px', position: 'relative', paddingTop: '20px', paddingLeft: '26px', overflow: 'hidden'}}>
+                               
+                                <div style={{boxSizing: 'border-box', float: 'left', width: '80%', paddingLeft: '15px'}}>
+                                    <h3 style={{boxSizing: 'border-box', clear: 'both', marginTop: '0px', marginBottom: '1px', fontWeight: 500, fontSize: '22px', lineHeight: '24px', fontFamily: 'Montserrat', color: 'rgb(35, 32, 35)', margin: '0px 0px 1px'}}>Mail Us</h3> <a href="mailto:hello@forecastadvtg.com" style={{boxSizing: 'border-box', backgroundColor: 'rgba(0, 0, 0, 0)', color: 'rgb(102, 102, 102)', transition: '0.3s', textDecoration: 'none solid rgb(102, 102, 102)', outline: 'rgb(102, 102, 102) none 0px'}}>hello@forecastadvtg.com</a>
+                                </div>
+                                <div style={{boxSizing: 'border-box', display: 'none'}}><i style={{boxSizing: 'border-box', fontStyle: 'italic', display: 'inline-block', width: '16px', height: '16px', lineHeight: '16px', verticalAlign: 'text-top', marginLeft: '5px'}}></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{boxSizing: 'border-box'}}>
+                        <div style={{boxSizing: 'border-box', textAlign: 'left'}}>
+                            <div style={{boxSizing: 'border-box', background: 'rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box', marginTop: '0px', marginBottom: '0px', display: 'flex', paddingBottom: '20px', position: 'relative', paddingTop: '20px', paddingLeft: '26px', overflow: 'hidden'}}>
+                               
+                                <div style={{boxSizing: 'border-box', float: 'left', width: '80%', paddingLeft: '15px'}}>
+                                    <h3 style={{boxSizing: 'border-box', clear: 'both', marginTop: '0px', marginBottom: '1px', fontWeight: 500, fontSize: '22px', lineHeight: '24px', fontFamily: 'Montserrat', color: 'rgb(35, 32, 35)', margin: '0px 0px 1px'}}>Address</h3>
+                                    604, Universal Majestic, P.L. Lokhande Marg, Behind R.B.K. International School, Chembur, Mumbai – 400043.
+                                </div>
+                                <div style={{boxSizing: 'border-box', display: 'none'}}><i style={{boxSizing: 'border-box', fontStyle: 'italic', display: 'inline-block', width: '16px', height: '16px', lineHeight: '16px', verticalAlign: 'text-top', marginLeft: '5px'}}></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+                <div className='  w-full md:w-1/2 pl-6 pr-6'>
+                <iframe className='w-full'  src="https://www.google.com/maps/d/embed?mid=1ElpRkEoQ8sRvtRH7YCvyB-IJP0RBh7E&ehbc=2E312F"   height="480"></iframe>
+               </div>
         </div>
         
        
