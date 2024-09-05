@@ -10,7 +10,7 @@ function Support() {
         setResult("Sending....");
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "2c0d5343-1be2-4839-a5f8-7dfe15886a76");
+        formData.append("access_key", "a880bc0c-8877-4f1c-9d4a-bb1574c365ed");
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
