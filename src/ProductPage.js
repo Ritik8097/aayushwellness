@@ -105,7 +105,7 @@ const ProductCarousel = () => {
             </div>
 
             {/* Product Details Section */}
-            <div className="flex flex-col justify-start pt-[85px]">
+            <div className="flex flex-col justify-start pt-[0px] md:pt-[85px]">
               <h1 className="text-3xl font-bold text-gray-900 mb-2">Aayush Herbal Pan Masala</h1>
               <p className="text-base text-gray-500 mb-4">100% Natural And Chemical Free.</p>
               <div className="flex items-center mb-4">
