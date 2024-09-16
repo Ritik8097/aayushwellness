@@ -48,7 +48,7 @@ export default function SliderThird() {
   const desktopImages = [
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_5_-_1500px_X_500px_1.jpg?v=1724307521",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_4_-_1500px_X_500px.jpg?v=1723525081",
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Product_Slider_Banner_-_Pan_Masala_-_1500X_500px_1.jpg?v=1724668205"
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Product_Slider_Banner_-_Pan_Masala_-_1500X_500px_94cd57b0-49a8-4e03-acc7-585edd4243c2.jpg?v=1726478570"
   ];
 
   // Choose images based on screen size
