@@ -109,7 +109,7 @@ body{
 
 
 nav {
-  font-family: "EB Garamond", sans-serif !important;
+  font-family: "Source Serif 4", sans-serif !important;
   font-size: 20px !important;
     
     font-size: 20px;
@@ -131,7 +131,7 @@ li{
 
 span{
   text-align: justify !important;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Source Serif 4", sans-serif;
   font-optical-sizing: auto;
   font-weight:300;
   font-style: normal;
