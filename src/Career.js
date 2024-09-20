@@ -62,6 +62,18 @@ function Career() {
                         className="w-full bg-gray-100 border-none rounded-lg py-2 px-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
                     />
                 </div>
+                            
+                <div className="w-full mb-4">
+                    <label htmlFor="number" className="block text-sm font-medium text-gray-700 mb-2">Phone No</label>
+                    <input
+                        type="number"
+                        name="number"
+                        id="number"
+                        required
+                        className="w-full bg-gray-100 border-none rounded-lg py-2 px-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
+                    />
+                </div>
+                            
                 <div className="w-full mb-4">
                     <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">Message</label>
                     <textarea
