@@ -13,7 +13,7 @@ function PrivacyPolicy() {
       <h3 className=' text-3xl text-center pt-4' style={{color:"#d1a272"}}>
       AAYUSH WELLNESS LTD. DATA PRIVACY POLICY
       </h3>
-      <div className='flex  align-center  justify-center pt-3 p-8'>
+      <div className='flex  align-center  justify-center pt-3 p-8 md:mt-[75px]'>
       <div className=' pt-4 text-xl md:max-w-screen-lg '>
       Aayush Wellness Ltd., a pioneer in holistic health and wellness solutions, is committed to safeguarding the privacy and security of your personal information. This Data Privacy Policy outlines how we collect, use, disclose, and protect the personal data you provide to us.   
 We understand the importance of trust and transparency in our relationship with our customers. This policy is designed to inform you about your rights and our responsibilities in handling your personal data in accordance with applicable data protection laws, including the General Data Protection Regulation (GDPR).   
