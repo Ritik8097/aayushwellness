@@ -1238,8 +1238,16 @@
       "id": 10,
       "header": "Press Release",
       "text": [
-        
-        
+          {
+          "id": 998,
+          "head": "Press_Release-29.10.2024",
+          "link": "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Press_Release_29.10.2024.pdf?v=1730194124"
+        },
+          {
+          "id": 999,
+          "head": "Press_Release-28.10.2024",
+          "link": "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Press_Release_-_28.10.2024.pdf?v=1730194124"
+        },
         {
           "id": 53,
           "head": "Press_Release-19.06.2024",
