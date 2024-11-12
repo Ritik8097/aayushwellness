@@ -14,7 +14,7 @@ export default function Footer() {
                 <div className="container mx-auto grid grid-cols-2 md:grid-cols-6 gap-8">
                   <div className=" flex-col items-center justify-center hidden md:flex">
                     <div className=" justify-center items-center flex">
-                        <img className='h-10' src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Aayush_Wellness_1-1-02.png?v=1724413838" alt="logo" />
+                        <img className='h-10' src="https://aayushlife.com/cdn/shop/files/Aayush_Wellness_Limited_-_Logo_-_17-10-2024-02_240x.png?v=1729951951" alt="logo" />
                     </div>
                     <div className="hidden text-[#707070] justify-center text-center  w-full text-[10px] md:flex">A Public Listed Company on <br/>Bombay Stock Exchange [BSE Code: 539528]</div>
                     </div>
