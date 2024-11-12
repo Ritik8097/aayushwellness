@@ -41,7 +41,7 @@ export default function Sliding() {
 
   const desktopImages = [
       "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/website_small_saches_banner_1500x500_54b677f9-96e4-4454-8989-1d2b0c00d429.jpg?v=1724759867",
-"https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_1_-_1500px_X_500px_3.jpg?v=1724310810",
+"https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_1_-_1500px_X_500px_2_1.jpg?v=1731418666",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_1_-_1500px_X_500px_1.jpg?v=1724307521",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/WhatsApp_Image_2024-08-20_at_11.35.51_AM_1.jpg?v=1724136184",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_1500px_X_500px.jpg?v=1723547591",
