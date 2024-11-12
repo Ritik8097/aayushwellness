@@ -6,7 +6,7 @@ export default function Footer() {
             <footer className="overflow-hidden text-foreground p-8" style={{background:'#FCFAF8'}}>
               <div className="flex flex-col items-center justify-center pb-8 md:hidden">
                 <div className="flex justify-center items-center  ">
-                    <img className='h-14' src="https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Aayush_Wellness_1-1-02.png?v=1724413838" alt="logo" />
+                    <img className='h-14' src="https://aayushlife.com/cdn/shop/files/Aayush_Wellness_Limited_-_Logo_-_17-10-2024-02_240x.png?v=1729951951" alt="logo" />
                 </div>
                 <div className="block md:hidden text-[#707070] text-[10px] text-center">A Public Listed Company on <br/>Bombay Stock Exchange [BSE Code: 539528]</div>
                     </div>
