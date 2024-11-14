@@ -6,7 +6,9 @@ export default function Footer() {
             <footer className="overflow-hidden text-foreground p-8" style={{background:'#FCFAF8'}}>
               <div className="flex flex-col items-center justify-center pb-8 md:hidden">
                 <div className="flex justify-center items-center  ">
+    <Link to="/">
                     <img className='h-14' src="https://aayushlife.com/cdn/shop/files/Aayush_Wellness_Limited_-_Logo_-_17-10-2024-02_240x.png?v=1729951951" alt="logo" />
+    </Link>
                 </div>
                 <div className="block md:hidden text-[#707070] text-[10px] text-center">A Public Listed Company on <br/>Bombay Stock Exchange [BSE Code: 539528]</div>
                     </div>
@@ -14,7 +16,9 @@ export default function Footer() {
                 <div className="container mx-auto grid grid-cols-2 md:grid-cols-6 gap-8">
                   <div className=" flex-col items-center justify-center hidden md:flex">
                     <div className=" justify-center items-center flex">
+     <Link to='/'>
                         <img className='h-[4.5rem]' src="https://aayushlife.com/cdn/shop/files/Aayush_Wellness_Limited_-_Logo_-_17-10-2024-02_240x.png?v=1729951951" alt="logo" />
+    </Link>
                     </div>
                     <div className="hidden text-[#707070] justify-center text-center  w-full text-[10px] md:flex">A Public Listed Company on <br/>Bombay Stock Exchange [BSE Code: 539528]</div>
                     </div>
