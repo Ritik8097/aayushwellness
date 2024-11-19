@@ -36,6 +36,8 @@ export default function Sliding() {
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_1_-_400px_X_520px_3.jpg?v=1724668205",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_400px_X_520px_2.jpg?v=1724668205",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_3_-_400px_X_520px_1.jpg?v=1724668205",
+    "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Product_Slider_Banner_-_Pan_Masala_-_2160px_X_1080px_-_17-10-2024_-_Mobile_Size_-2.jpg?v=1732023465",
+    "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Product_Slider_Banner_-_Pan_Masala_-_2160px_X_1080px_-_17-10-2024_-_Mobile_Size.jpg?v=1732023465",
     
   ];
 
@@ -45,6 +47,8 @@ export default function Sliding() {
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_1_-_1500px_X_500px_1.jpg?v=1724307521",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/WhatsApp_Image_2024-08-20_at_11.35.51_AM_1.jpg?v=1724136184",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_1500px_X_500px.jpg?v=1723547591",
+    "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Slider_Banner_5_-_1500px_X_500px.jpg?v=1732014408",
+    "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Slider_Banner_6_-_1500px_X_500px.jpg?v=1732014408",
   
   ];
 
