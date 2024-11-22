@@ -58,7 +58,7 @@ export default function Sliding() {
         <Slider {...sliderSettings}>
           {images.map((src, index) => (
             <div key={index} className="relative">
-              <img loading='lazy' className="w-full h-[100vh] md:h-auto" src={src} alt={`Slide ${index + 1}`} />
+              <img loading='lazy' className="w-full object-fill h-[100vh] md:h-auto" src={src} alt={`Slide ${index + 1}`} />
             </div>
           ))}
         </Slider>
