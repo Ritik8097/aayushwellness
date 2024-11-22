@@ -31,13 +31,11 @@ export default function Sliding() {
 
   // Mobile and desktop images
   const mobileImages = [
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/website_small_saches_banner_900x1120_5dfe17c8-7132-49da-b14b-b2bd0301ed12.jpg?v=1724759867",
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_1_-_400px_X_520px_1.jpg?v=1724668205",
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_1_-_400px_X_520px_3.jpg?v=1724668205",
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_400px_X_520px_2.jpg?v=1724668205",
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_3_-_400px_X_520px_1.jpg?v=1724668205",
-    "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Product_Slider_Banner_-_Pan_Masala_-_2160px_X_1080px_-_17-10-2024_-_Mobile_Size_-2.jpg?v=1732023465",
-    "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Product_Slider_Banner_-_Pan_Masala_-_2160px_X_1080px_-_17-10-2024_-_Mobile_Size.jpg?v=1732023465",
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_2.jpg?v=1732285019",
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_3.jpg?v=1732285019",
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_4.jpg?v=1732285019",
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_1.jpg?v=1732285018",
+    
     
   ];
 
@@ -47,8 +45,6 @@ export default function Sliding() {
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_1_-_1500px_X_500px_1.jpg?v=1724307521",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/WhatsApp_Image_2024-08-20_at_11.35.51_AM_1.jpg?v=1724136184",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_1500px_X_500px.jpg?v=1723547591",
-    "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Slider_Banner_5_-_1500px_X_500px.jpg?v=1732014408",
-    "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Slider_Banner_6_-_1500px_X_500px.jpg?v=1732014408",
   
   ];
 
@@ -62,7 +58,7 @@ export default function Sliding() {
         <Slider {...sliderSettings}>
           {images.map((src, index) => (
             <div key={index} className="relative">
-              <img loading='lazy' className="w-full" src={src} alt={`Slide ${index + 1}`} />
+              <img loading='lazy' className="w-full h-[100vh] md:h-auto" src={src} alt={`Slide ${index + 1}`} />
             </div>
           ))}
         </Slider>
