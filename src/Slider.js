@@ -31,7 +31,7 @@ export default function Sliding() {
 
   // Mobile and desktop images
   const mobileImages = [
-    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_2.jpg?v=1732285019",
+    "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_2_hq.jpg?v=1732339427",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_3.jpg?v=1732285019",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_4.jpg?v=1732285019",
     "https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_1.jpg?v=1732285018",
