@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 function AnimatedText({  heading, subtext,url, buttonText, isVisible }) {
   return (
-    <div className="absolute  md:hidden  pt-[120px] inset-0 flex items-start justify-center px-6 md:px-12">
+    <div className="absolute  md:justify-start md:items-center  pt-[120px] inset-0 flex items-start justify-center px-6 md:px-12">
       <div
         className={`max-w-lg bg-opacity-75 p-6  text-white space-y-4 transition-all duration-[1000ms] ease-out ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-40'
@@ -62,26 +62,33 @@ export default function AnimatedSlider() {
 
   const desktopImages = [
     {
-      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/website_small_saches_banner_1500x500_54b677f9-96e4-4454-8989-1d2b0c00d429.jpg?v=1724759867',
-      heading: 'Chairman Chandrasekaran on the AI-Vistara merger',
-      subtext: '"An important milestone in our commitment to transform Air India into a world-class global airline with an Indian heart."',
-      buttonText: 'Read note',
+      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_1_-_1500px_X_500px_31d67136-0584-417e-bd8e-406a01092ff0.jpg?v=1734352062',
+       heading: 'Life Long Wellness',
+      subtext: 'Taste Wellness , Embrace Nutrition : Aayush Your Gatway To Good Health ',
+      url:"/wellness/health-wellness",
+      buttonText: 'Explore more',
     },
     {
-      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_1_-_1500px_X_500px_2_1.jpg?v=1731418666',
-      heading: 'Driving Change Through Innovation',
-      subtext: 'We aim to build sustainable and future-ready solutions.',
-      buttonText: 'Learn more',
+      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_3_-_1500px_X_500px_956612c4-8d96-4978-93c9-4b30b4669fd8.jpg?v=1734352063',
+     heading: 'Your Health , Our Priority',
+      subtext: 'Tobacco-Free, Ayurveda Rich Solution',
+      url:"/wellness/modern-science",
+      buttonText: 'View details',
     },
     {
-      src:"https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_1_-_1500px_X_500px_1.jpg?v=1724307521"
+      src:"https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_1_-_1500px_X_500px_f0fce8bd-7175-4f4f-9ebc-2c78e8d9f412.jpg?v=1734352063",
+      heading: 'Introducing Gummies',
+      subtext: 'That Go Beyond Ordinary',
+      url:"/gummies",
+      buttonText: 'View details',
     },
 
     {
-      src:"https://cdn.shopify.com/s/files/1/0674/9614/9171/files/WhatsApp_Image_2024-08-20_at_11.35.51_AM_1.jpg?v=1724136184"
-    },
-    {
-      src:"https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_1500px_X_500px.jpg?v=1723547591"
+      src:"https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_1500px_X_500px_e0c7b8d3-c642-4516-8bbc-66b1e9b35414.jpg?v=1734352062",
+        heading: 'Transforming Habits ',
+      subtext: 'Transforming Lives',
+      url:"/ayurveda",
+      buttonText: 'Explore more',
     }
   ];
 
