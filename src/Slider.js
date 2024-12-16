@@ -145,7 +145,7 @@ export default function AnimatedSlider() {
           <div key={index} className="relative">
             <img
               loading={index === 0 ? 'eager' : 'lazy'}
-              className="w-full h-[100vh]  md:object-cover"
+              className="w-full h-[100vh]  
               src={image.src}
               alt={`Slide ${index + 1}`}
             />
