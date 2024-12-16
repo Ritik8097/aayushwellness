@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 function AnimatedText({  heading, subtext,url, buttonText, isVisible }) {
   return (
-    <div className="absolute  md:justify-start md:items-center  pt-[120px] inset-0 flex items-start justify-center px-6 md:px-12 md:object-cover">
+    <div className="absolute  md:justify-start md:items-center  pt-[120px] inset-0 flex items-start justify-center px-6 md:px-12 ">
       <div
         className={`max-w-lg bg-opacity-75 p-6  text-white space-y-4 transition-all duration-[1000ms] ease-out ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-40'
@@ -145,7 +145,7 @@ export default function AnimatedSlider() {
           <div key={index} className="relative">
             <img
               loading={index === 0 ? 'eager' : 'lazy'}
-              className="w-full h-[100vh]"
+              className="w-full h-[100vh]  md:object-cover"
               src={image.src}
               alt={`Slide ${index + 1}`}
             />
