@@ -134,7 +134,7 @@ export default function AnimatedSlider() {
     autoplay: true,
     autoplaySpeed: 5000,
     arrows: false,
-    pauseOnHover: !isMobile,
+    pauseOnHover: false,
     beforeChange: (_, next) => setCurrentSlide(next),
   };
 
