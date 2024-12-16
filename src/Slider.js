@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 function AnimatedText({  heading, subtext,url, buttonText, isVisible }) {
   return (
-    <div className="absolute   pt-[120px] inset-0 flex items-start justify-center px-6 md:px-12">
+    <div className="absolute  md:hidden  pt-[120px] inset-0 flex items-start justify-center px-6 md:px-12">
       <div
         className={`max-w-lg bg-opacity-75 p-6  text-white space-y-4 transition-all duration-[1000ms] ease-out ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-40'
