@@ -25,7 +25,7 @@ function Layout() {
   return (
     <>
  <Suspense fallback={<HeaderLoad />}>
-    <Header  />
+   
 </Suspense>
 <Sliding/>
 <Suspense fallback={<SectionFload />}>
