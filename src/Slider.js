@@ -69,14 +69,14 @@ export default function AnimatedSlider() {
       buttonText: 'Explore more',
     },
     {
-      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_3_-_1500px_X_500px_956612c4-8d96-4978-93c9-4b30b4669fd8.jpg?v=1734352063',
+      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_Slider_Banner_1_-_1920px_X_1080px.psd.jpg?v=1734762713',
      heading: 'Your Health , Our Priority',
       subtext: 'Tobacco-Free, Ayurveda Rich Solution',
       url:"/wellness/modern-science",
       buttonText: 'View details',
     },
     {
-      src:"https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Gummies_Slider_Banner_1_-_1500px_X_500px_f0fce8bd-7175-4f4f-9ebc-2c78e8d9f412.jpg?v=1734352063",
+      src:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_Slider_Banner_5_-_1920px_X_1080px.jpg?v=1734762713",
       heading: 'Introducing Gummies',
       subtext: 'That Go Beyond Ordinary',
       url:"/gummies",
@@ -84,7 +84,7 @@ export default function AnimatedSlider() {
     },
 
     {
-      src:"https://cdn.shopify.com/s/files/1/0674/9614/9171/files/Slider_Banner_2_-_1500px_X_500px_e0c7b8d3-c642-4516-8bbc-66b1e9b35414.jpg?v=1734352062",
+      src:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_Slider_Banner_8_-_1920px_X_1080px.jpg?v=1734762713",
         heading: 'Transforming Habits ',
       subtext: 'Transforming Lives',
       url:"/ayurveda",
