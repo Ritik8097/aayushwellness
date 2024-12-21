@@ -80,7 +80,7 @@ export default function Header() {
           <div className="flex justify-between md:justify-between items-center h-auto">
             <div className="flex items-center">
               <Link to="/">
-                <img className="md:h-[5.7rem] h-[4rem] md:pt-3 md:pb-3" src="https://aayushlife.com/cdn/shop/files/Aayush_Wellness_Limited_-_Logo_-_17-10-2024-02_240x.png?v=1729951951" alt="logo" />
+                <img className="md:h-[5.7rem] h-[4rem] md:pt-3 md:pb-3" src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Wellness_Limited_-_Logo_-_17-10-2024-02_-_png-white.png?v=1734763399" alt="logo" />
               </Link>
             </div>
             <div className="hidden gap-4 md:flex space-x-4  text-[20px] font-[500]">
