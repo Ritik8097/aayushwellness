@@ -62,7 +62,7 @@ export default function AnimatedSlider() {
 
   const desktopImages = [
     {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_Slider_Banner_3_-_1920px_X_1080px.jpg?v=1734688355',
+      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_Slider_Banner_3_-_1920px_X_1080px_1.jpg?v=1734763400',
        heading: 'Life Long Wellness',
       subtext: 'Taste Wellness , Embrace Nutrition : Aayush Your Gatway To Good Health ',
       url:"/wellness/health-wellness",
