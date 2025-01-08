@@ -82,7 +82,7 @@ export default function AnimatedSlider() {
       buttonText: 'Explore more',
     },
     {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_Slider_Banner_1_-_1920px_X_1080px.psd.jpg?v=1734762713',
+      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Pan_Masala_Main_slider_Banner_-_1920px_X_1080px.jpg?v=1736338517',
      heading: 'Your Health , Our Priority',
       subtext: 'Tobacco-Free, Ayurveda Rich Solution',
       url:"/wellness/modern-science",
