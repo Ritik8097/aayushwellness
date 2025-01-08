@@ -89,7 +89,7 @@ export default function AnimatedSlider() {
       buttonText: 'View details',
     },
     {
-      src:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/website_product_beauty_ingredients_video_banner.gif?v=1736338481",
+      src:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Beauty_Gummies_banner_-_Product_Page_-_18-10-2024_-_1920x1080_1_-_Copy.gif?v=1736339394",
       heading: 'Introducing Gummies',
       subtext: 'That Go Beyond Ordinary',
       url:"/gummies",
