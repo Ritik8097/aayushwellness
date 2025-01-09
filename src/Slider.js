@@ -90,10 +90,18 @@ export default function AnimatedSlider() {
     },
     {
       src:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Beauty_Gummies_banner_-_Product_Page_-_18-10-2024_-_1920x1080_1_-_Copy.gif?v=1736339394",
-      heading: 'Introducing Gummies',
-      subtext: 'That Go Beyond Ordinary',
-      url:"/gummies",
-      buttonText: 'View details',
+      heading: '',
+      subtext: '',
+      url:"https://aayushlife.com/",
+      buttonText: 'Buy Now',
+    },
+   
+    {
+      src:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Sleep_Gummies_banner_-_Product_Page_-_18-10-2024_-_1920x1080_161abdfb-3679-47a1-9231-d56b242b2829.gif?v=1736339393",
+      heading: '',
+      subtext: '',
+      url:"https://aayushlife.com/",
+      buttonText: 'Buy Now',
     },
 
     {
