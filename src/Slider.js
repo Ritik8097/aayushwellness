@@ -153,7 +153,7 @@ export default function AnimatedSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 9000,
     arrows: false,
     pauseOnHover: false,
     beforeChange: (_, next) => setCurrentSlide(next),
