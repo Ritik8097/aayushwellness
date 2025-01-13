@@ -28,12 +28,12 @@ function AnimatedText({  heading, subtext,url, buttonText, isVisible }) {
         <h2 className="text-[22px] text-white md:text-3xl font-bold transition-all duration-[1000ms] ease-out delay-500">
           {heading}
         </h2>
-        <div style={{borderLeft:'1px solid rgb(209, 162, 114', marginLeft:" 10px", padding:"0px 15px"}}>
+        <div style={{borderLeft:'1px solid white', marginLeft:" 10px", padding:"0px 15px"}}>
         <p className="text-sm md:text-base font-light italic transition-all duration-[1000ms] ease-out delay-700  pb-3">
           {subtext}
         </p>
         <a href={url}>
-        <button style={{backgroundColor:"  rgb(209, 162, 114"}} className="px-4 py-2  text-black font-medium rounded-md  transition-all duration-[1000ms] ease-out delay-900">
+        <button style={{backgroundColor:" black"}} className="px-4 py-2  text-white font-medium rounded-md  transition-all duration-[1000ms] ease-out delay-900">
           {buttonText} →
         </button>
         </a>
