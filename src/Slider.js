@@ -130,14 +130,14 @@ export default function AnimatedSlider() {
       buttonText: 'View details',
     },
     {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Beauty_Gummies_banner_-_Product_Page_-_18-10-2024_-_mobile_size_1_7d193c20-ac44-40a8-b2bb-426116e22f07.gif?v=1736493687',
+      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/beauty_gif_1.gif?v=1736833127',
       heading: '',
       subtext: '',
       url:"https://aayushlife.com/",
       buttonText: 'Buy Now',
     },
     {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Beauty_Gummies_banner_-_Product_Page_-_18-10-2024_-_mobile_size_1.gif?v=1736493687',
+      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/sleep_gif_1.gif?v=1736833128',
       heading: '',
       subtext: '',
       url:"https://aayushlife.com/",
