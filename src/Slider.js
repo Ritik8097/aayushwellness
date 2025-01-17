@@ -115,7 +115,7 @@ export default function AnimatedSlider() {
 
   const mobileImages = [
     {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BANNER_5_new.jpg?v=1736493684',
+      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_5_new_2.jpg?v=1737092567',
       heading: 'Life Long Wellness',
       subtext: 'Taste Wellness , Embrace Nutrition : Aayush Your Gatway To Good Health ',
       url:"/wellness/health-wellness",
@@ -123,7 +123,7 @@ export default function AnimatedSlider() {
     },
    
     {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BANNER_5-2_new.jpg?v=1736493685',
+      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_5-2_new_2.jpg?v=1737092568',
      heading: 'Your Health , Our Priority',
       subtext: 'Tobacco-Free, Ayurveda Rich Solution',
       url:"/wellness/modern-science",
@@ -144,7 +144,7 @@ export default function AnimatedSlider() {
       buttonText: 'Buy Now',
     },
     {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BANNER_5-5_new.jpg?v=1736493684',
+      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_5-5_new_2.jpg?v=1737092568',
       heading: 'Transforming Habits ',
       subtext: 'Transforming Lives',
       url:"/ayurveda",
