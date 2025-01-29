@@ -127,9 +127,11 @@ const ProductGummies = () => {
                 
               </div>
               <div className="flex flex-col sm:flex-row gap-3 mb-8">
+                        <a href="https://aayushlife.com/products/beauty-vitamin-gummies" target="_blank">
                 <button className="bg-[#d1a272] text-white py-2 px-6 rounded-lg flex-1 text-center font-semibold">
                   Buy Now
                 </button>
+                        </a>
               </div>
               <div>
                 <p className="text-base text-gray-500 mb-4 font-[400]">
