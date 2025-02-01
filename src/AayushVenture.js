@@ -95,6 +95,30 @@ export default function AayushVenture() {
       
       }
   ];
+ const [result, setResult] = React.useState("");
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
+
+        formData.append("access_key", "a880bc0c-8877-4f1c-9d4a-bb1574c365ed");
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            setResult("Form Submitted Successfully");
+            event.target.reset();
+        } else {
+            console.log("Error", data);
+            setResult(data.message);
+        }
+    };
 
   const images = isMobile ? mobileImages : desktopImages;
 
@@ -105,7 +129,9 @@ export default function AayushVenture() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 9000,
+    fade: true, // Enables fade-in effect
+    cssEase: "linear", // Ensures smooth animation
+    autoplaySpeed: 5000,
     arrows: false,
     pauseOnHover: false,
     beforeChange: (_, next) => setCurrentSlide(next),
@@ -460,8 +486,30 @@ export default function AayushVenture() {
       
       </div>
       <div class="flex  align-center  justify-center pt-3 p-8"><div class=" pt-4 text-xl md:max-w-screen-sm "><h3 class=" text-left text-2xl pb-4  font-bold">Empowering Brands That Drive Innovation</h3>We invest in innovative products and transformative technology in health & wellness.</div></div>
-       <Footer/>
+      
+      <div class="flex  align-center  justify-center pt-3 p-8"><div class=" pt-4 text-xl md:max-w-screen-sm "><h3 class=" text-left text-2xl pb-4  font-bold">We would love to hear from you.</h3>
+      
+       <a href='tel:+918655900409'>
+      <button type="button" class="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800">Call Or Whatsapp</button>
+      </a>
+      <a href='mailto:info@aayushwellness.com'>
+     
+      <button type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Email Us</button>
+      </a>
+      <a href='/support'>
+      <button type="button" class="text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900">Contact Us</button>
+      </a>
+      </div>
+      
+      </div>
+
+
+      
+       
     </div>
+
+    
+    <Footer/>
     </>
   );
 }
