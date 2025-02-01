@@ -26,7 +26,7 @@ import PrivacyPolicy from "./PrivacyPolicy";
 import ProductCarousel from "./ProductPage";
 import ProductGummies from "./ProductPageGummies";
 import ProductPageSleep from "./ProductPageSleep";
-
+import AayushVenture from "./AayushVenture";
 import './index.css'
 function App() {
   return (
@@ -49,7 +49,7 @@ function App() {
 
 
         
-
+<Route  path="aayush-venture" element={<AayushVenture />}/>
 
         <Route  path="ourproduct" element={<OurProduct />}/>
         <Route path="csr-at-aayush/health-check" element={<HealthCheck/>}/>
