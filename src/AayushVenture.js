@@ -487,8 +487,19 @@ export default function AayushVenture() {
       </div>
       <div class="flex  align-center  justify-center pt-3 p-8"><div class=" pt-4 text-xl md:max-w-screen-sm "><h3 class=" text-left text-2xl pb-4  font-bold">Empowering Brands That Drive Innovation</h3>We invest in innovative products and transformative technology in health & wellness.</div></div>
       
+      
+      <div class="flex  align-center  justify-center pt-3 p-8 j">
+        <div class=" pt-4 text-xl md:max-w-screen-sm ">
+            <img src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/WhatsApp_Image_2025-02-01_at_6.31.17_PM.jpg?v=1738414964"/>
+           </div></div>
+      
+      
       <div class="flex  align-center  justify-center pt-3 p-8"><div class=" pt-4 text-xl md:max-w-screen-sm "><h3 class=" text-left text-2xl pb-4  font-bold">We would love to hear from you.</h3>
       
+
+      
+
+
        <a href='tel:+918655900409'>
       <button type="button" class="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800">Call Or Whatsapp</button>
       </a>
