@@ -7,7 +7,7 @@ export default function Footer() {
               <div className="flex flex-col items-center justify-center pb-8 md:hidden">
                 <div className="flex justify-center items-center  ">
     <Link to="/">
-                    <img className='h-14' src="https://aayushlife.com/cdn/shop/files/Aayush_Wellness_Limited_-_Logo_-_17-10-2024-02_240x.png?v=1729951951" alt="logo" />
+                    <img className='h-14 footer-img' src="https://aayushlife.com/cdn/shop/files/Aayush_Wellness_Limited_-_Logo_-_17-10-2024-02_240x.png?v=1729951951" alt="logo" />
     </Link>
                 </div>
                 <div className="block md:hidden text-[#707070] text-[10px] text-center">A Public Listed Company on <br/>Bombay Stock Exchange [BSE Code: 539528]</div>
