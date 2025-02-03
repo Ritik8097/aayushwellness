@@ -88,7 +88,7 @@ export default function AayushVenture() {
 
   const mobileImages = [
     {
-        src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_ventures_banner_2-_01-02-25_mobile.jpg?v=1738410390',
+        src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Ad_English_-_3-2-2025_-_Potrait.jpg?v=1738590170',
          
       },
       {
