@@ -75,13 +75,14 @@ export default function AayushVenture() {
   }, []);
 
   const desktopImages = [
-    {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_ventures_banner_2-_01-02-25_3.jpg?v=1738409032',
-       
-    },
+  
     {
       src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Dekstop_2.jpg?v=1738589987',
     
+    },  
+   {
+      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_ventures_banner_2-_01-02-25_3.jpg?v=1738409032',
+       
     }
   ];
 
