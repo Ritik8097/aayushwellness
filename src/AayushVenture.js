@@ -80,7 +80,7 @@ export default function AayushVenture() {
        
     },
     {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_ventures_banner_1-_01-02-25_6.jpg?v=1738409032',
+      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Dekstop.jpg?v=1738589542',
     
     }
   ];
