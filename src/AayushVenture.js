@@ -464,7 +464,7 @@ export default function AayushVenture() {
           <div key={index} className="relative">
             <img
               loading={index === 0 ? 'eager' : 'lazy'}
-              className="w-full h-[100vh] J  object-cover md:object-fill"
+              className="w-full h-[100vh] J  object-fill md:object-fill"
               src={image.src}
               alt={`Slide ${index + 1}`}
             />
