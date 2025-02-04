@@ -77,23 +77,15 @@ export default function AayushVenture() {
   const desktopImages = [
   
     {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Dekstop_2.jpg?v=1738589987',
+      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Dekstop_3.jpg?v=1738655946',
     
-    },  
-   {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_ventures_banner_2-_01-02-25_3.jpg?v=1738409032',
-       
     }
   ];
 
   const mobileImages = [
     {
-        src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Ad_English_-_3-2-2025_-_Potrait.jpg?v=1738590170',
+        src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Mobile_Size.jpg?v=1738655946',
          
-      },
-      {
-        src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_ventures_banner_1-_01-02-25_6.jpg?v=1738409032',
-      
       }
   ];
  const [result, setResult] = React.useState("");
