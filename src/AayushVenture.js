@@ -10,9 +10,7 @@ import menu from './images/menu.png';
 import closepng from './images/close.png';
 import searchIcon from './images/search-gray.svg'
 import Footer from './Footer';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHandsHelping, faCodeBranch, faPeopleCarry, faTachometerAlt, faChartLine } from '@fortawesome/free-solid-svg-icons';
-import { faLaptop, faDesktop } from '@fortawesome/free-solid-svg-icons';
+
 
 
 function AnimatedText({ heading, subtext, url, buttonText, isVisible }) {
