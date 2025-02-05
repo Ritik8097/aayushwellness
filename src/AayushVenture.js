@@ -200,7 +200,7 @@ export default function AayushVenture() {
 
 
   return (
-    <SmoothScroll>
+    <>
       <nav className="md:text-white text-[rgb(112, 112, 112)] g font-serif" style={{ fontFamily: '"Source Serif 4", sans-serif', fontWeight: 'bold', fontSize: 'clamp(0.875rem, 0.9rem + 0.2667vw, 1.125rem)' }}>
         <div className="max-w-[109rem] mx-auto px-4">
           <div className="flex justify-between md:justify-between items-center h-auto">
@@ -703,7 +703,7 @@ export default function AayushVenture() {
 
 
       <Footer />
-    </SmoothScroll>
+    </>
   );
 }
 
