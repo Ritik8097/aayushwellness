@@ -12,7 +12,6 @@ import searchIcon from './images/search-gray.svg'
 import Footer from './Footer';
 
 
-
 function AnimatedText({ heading, subtext, url, buttonText, isVisible }) {
 
 
@@ -200,7 +199,7 @@ export default function AayushVenture() {
 
 
   return (
-    <>
+    <SmoothScroll>
       <nav className="md:text-white text-[rgb(112, 112, 112)] g font-serif" style={{ fontFamily: '"Source Serif 4", sans-serif', fontWeight: 'bold', fontSize: 'clamp(0.875rem, 0.9rem + 0.2667vw, 1.125rem)' }}>
         <div className="max-w-[109rem] mx-auto px-4">
           <div className="flex justify-between md:justify-between items-center h-auto">
@@ -531,7 +530,6 @@ export default function AayushVenture() {
 
 
 
-       
 
 
 
@@ -560,7 +558,7 @@ export default function AayushVenture() {
         </div>
         {/* 
       <div class="flex  align-center  justify-center pt-3 p-8"><div class=" pt-4 text-xl md:max-w-screen-lg "><h3 class=" text-left text-2xl pb-4  font-bold">Empowering Brands That Drive Innovation</h3>We invest in innovative products and transformative technology in health & wellness.</div></div>
-      */}
+      
 
         <div class="flex  align-center  justify-center pt-3 p-8 j">
           <div class=" pt-4 text-xl md:max-w-screen-lg ">
@@ -673,7 +671,7 @@ export default function AayushVenture() {
                 </div>
               </div>
             </div>
-          </div></div>
+          </div></div>*/}
 
 
         <div class="flex  align-center  justify-center pt-3 p-8"><div class=" pt-4 text-xl md:max-w-screen-sm "><h3 class=" text-left text-2xl pb-4  font-bold">We would love to hear from you.</h3>
@@ -703,7 +701,7 @@ export default function AayushVenture() {
 
 
       <Footer />
-    </>
+    </SmoothScroll>
   );
 }
 
