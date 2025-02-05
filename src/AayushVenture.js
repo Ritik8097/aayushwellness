@@ -13,7 +13,7 @@ import Footer from './Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandsHelping, faCodeBranch, faPeopleCarry, faTachometerAlt, faChartLine } from '@fortawesome/free-solid-svg-icons';
 import { faLaptop, faDesktop } from '@fortawesome/free-solid-svg-icons';
-import SmoothScroll from './SmoothScroll';
+
 
 function AnimatedText({ heading, subtext, url, buttonText, isVisible }) {
 
