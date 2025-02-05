@@ -669,14 +669,10 @@ p  {
 
 
 
-@font-face {
-  font-family: 'segma';
-  src: url('../public/fonts/BRSegma-Regular-BF654d990a3279a.otf') ;
-  font-weight: normal;
-}
+
 
 .headd{
-  font-family: 'segma', sans-serif !important;
+  font-family: sans-serif !important;
   line-height: 60px;
     font-size: 50px;
 }
