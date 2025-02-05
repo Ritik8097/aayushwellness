@@ -17,6 +17,10 @@
       -ms-overflow-style: none;  /* IE and Edge */
       scrollbar-width: none;  /* Firefox */
 }
+  .headd{
+  font-family: 'segma', sans-serif !important;
+  line-height: 60px;
+    font-size: 50px;
 }
 
 .relative img{
