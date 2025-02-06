@@ -483,13 +483,13 @@ export default function AayushVenture() {
         <div  className='md:p-16 p-[20px]' style={{ boxSizing: 'border-box', background: "black", overflowX: "hidden" }}>
           <p className='md:p-11 max-w-screen-lg' style={{ fontWeight: 300, color: 'rgb(255, 255, 255)', margin: '0px 0px 92.1233px', fontSize: '95.15px', boxSizing: 'border-box', marginBottom: '92.1233px', textAlign: 'left',   position: 'relative' }}>
             <letter-split  className=" w-full" content="$$0$$" style={{ boxSizing: 'border-box', margin: '0px', padding: '0px', position: 'relative', display: 'block',  wordBreak: 'keep-all' }}>
-          <div className='text-white md:leading-[70px] leading-[35px] font-[400] text-[25px] text-left md:pl-[40px] md:pr-[40px]  pr-[20px] pl-5'  >  At Aayush Wellness, we’re not just investing in companies—we’re shaping the future of health and wellness. By collaborating with forward-thinking startups, we aim to create smarter, more personalized solutions that improve lives.</div>
+          <div className='text-white md:leading-[70px] leading-[35px] font-[400] text-[25px] text-left   '  >  At Aayush Wellness, we’re not just investing in companies—we’re shaping the future of health and wellness. By collaborating with forward-thinking startups, we aim to create smarter, more personalized solutions that improve lives.</div>
          
             </letter-split>
           
           
 <br/>
-            <span  className='text-[20px] md:text-[20px]  md:leading-[1]  text-white'>-  Managing Director, Aayush Wellness Limited</span>
+            <span  className='text-[25px] md:text-[30px]  md:leading-[1]  text-[#a8ff00]'>-  Managing Director, <br/> <p  className='pt-[14px] text-[20px] md:text-[20px]  md:leading-[1]  text-white'>Aayush Wellness Limited</p></span>
          </p>
           <hr style={{ appearance: 'none', border: '0px none rgb(255, 255, 255)', borderRadius: '0px', boxSizing: 'border-box', margin: '0px', padding: '0px', opacity: '0.25', background: 'rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box', height: '1px' }} />
         </div>
