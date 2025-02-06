@@ -10,6 +10,7 @@ import menu from './images/menu.png';
 import closepng from './images/close.png';
 import searchIcon from './images/search-gray.svg'
 import Footer from './Footer';
+import VentureSection1 from './VentureSection1';
 
 
 function AnimatedText({ heading, subtext, url, buttonText, isVisible }) {
@@ -460,11 +461,11 @@ export default function AayushVenture() {
 
       </nav>
 
-
-      <div className="relative" ref={sliderRef}>
+<VentureSection1/>
+      <div  ref={sliderRef}>
       <Slider {...sliderSettings}>
       {images.map((slide, index) => (
-        <div key={index} className="relative bg-black">
+        <div key={index} className=" bg-black">
           {slide.type === "video" ? (
             <video
               className="w-full h-[100vh] object-cover"
