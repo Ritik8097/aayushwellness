@@ -4,7 +4,7 @@ import Footer from './Footer'
 import Banner from './Banner'
 import Specialities from './Specilalities'
 
-import Service from './service'
+import Service from './Service'
 
 
 const items = [
