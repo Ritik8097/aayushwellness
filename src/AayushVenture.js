@@ -507,9 +507,9 @@ export default function AayushVenture() {
           <block-article parallax="" parallax-ratio="0.1" data-direction="$$0$$" data-content="$$1$$" style={{ boxSizing: 'border-box', margin: '0px', padding: '0px', display: 'block' }}>
             <scroll-object className="md:pl-[40px] md:pr-[40px] pl-[20px] pr-[20px]" style={{ boxSizing: 'border-box', margin: '0px', flexDirection: 'row-reverse', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', display: 'flex' }}>
               <div className='flex items-center justify-center w-full flex-col md:flex-row' style={{ boxSizing: 'border-box', margin: '0px', padding: '52.9444px 0px', paddingTop: '52.9444px', paddingBottom: '52.9444px' }}>
-                <div className=' w-full md:w-[60%] '>
+                <div className=' w-full md:w-[50%] '>
                   <video className='w-full'
-                    src="https://cdn.shopify.com/videos/c/o/v/da322b82c9bf4a8f8e716b120c4eb173.mp4"
+                    src="https://www.ouiwill.com/wp-content/uploads/2021/06/Section01-1.mp4"
                     autoPlay
                     loop
                     muted
@@ -517,24 +517,10 @@ export default function AayushVenture() {
                   // Optional styling
                   />
                 </div>
-                <p className='md:w-[40%] w-full' style={{ boxSizing: 'border-box', margin: '0px 0px 42.3556px', padding: '0px', marginBottom: '42.3556px', lineHeight: '62.1118px', fontSize: '26.4306px' }}><span style={{ boxSizing: 'border-box', margin: '0px', padding: '0px' }}>
+                <p className='md:w-[50%] w-full' style={{ boxSizing: 'border-box', margin: '0px 0px 42.3556px', padding: '0px', marginBottom: '42.3556px', lineHeight: '62.1118px', fontSize: '26.4306px' }}><span style={{ boxSizing: 'border-box', margin: '0px', padding: '0px' }}>
 
-                  <p className='text-white text-[25px] text-left md:pl-[40px] md:pr-[40px]  pr-[20px] pl-5' style={{ boxSizing: 'border-box', margin: '0px',  lineHeight: "50px" }}>
-                  Our investment goes beyond just capital. We provide:
-                  <li>Strategic Funding: We provide investment that drives growth, innovation, and sustainability.
-                  </li>
-                  <li>Mentorship: Access to industry experts for guidance and navigating challenges.
-                  </li>
-                  <li>Networking: We connect you with investors, partners, and influencers to accelerate growth.
-                  </li>
-                  <li>Marketing & Operational Support: Boost efficiency and growth with strategic marketing and streamlined operations.
-
-                  </li>
-                  <li>R&D: Fuel innovation to refine products and stay competitive.
-
-</li>
-<li>Go-to-Market Strategies: Help startups launch and position products for maximum market impact.
-</li>
+                  <p className='text-white md:leading-[70px] leading-[40px] font-[500] text-[25px] text-left md:pl-[40px] md:pr-[40px]  pr-[20px] pl-5' style={{ boxSizing: 'border-box', margin: '0px' }}>
+                  At Aayush Wellness, we go beyond capital—offering deep industry expertise, Marketing Support,operational guidance, and access to a powerful network to help you accelerate growth and scale sustainably.
                    </p>
                 
                 </span></p>
