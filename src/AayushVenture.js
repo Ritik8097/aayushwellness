@@ -512,7 +512,7 @@ export default function AayushVenture() {
                 </div>
                 <p className='md:w-[50%] w-full' style={{ boxSizing: 'border-box', margin: '0px 0px 42.3556px', padding: '0px', marginBottom: '42.3556px', lineHeight: '62.1118px', fontSize: '26.4306px' }}><span style={{ boxSizing: 'border-box', margin: '0px', padding: '0px' }}>
 
-                  <p class="headd" className='text-[20px] text-white pl-[20px]'  style={{ boxSizing: 'border-box', margin: '0px' }}>
+                  <p class="headd" className='text-[20px] text-white pl-[20px] md:leading-[60px] leading-[40px]'  style={{ boxSizing: 'border-box', margin: '0px' }}>
                   At Aayush Wellness, we go beyond capital—offering deep industry expertise, Marketing Support,operational guidance, and access to a powerful network to help you accelerate growth and scale sustainably.
                    </p>
                 
