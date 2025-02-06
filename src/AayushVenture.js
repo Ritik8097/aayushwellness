@@ -23,7 +23,7 @@ function AnimatedText({ heading, subtext, url, buttonText, isVisible }) {
 
     <div className="absolute  md:justify-start md:items-center  pt-[120px] inset-0 flex items-start justify-center px-6 md:px-12 ">
       <div
-        className={`max-w-lg bg-opacity-75 p-6  text-white space-y-4 transition-all duration-[1000ms] ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-40 '
+        className={`max-w-lg bg-opacity-75 p-6  text-white space-y-4 transition-all duration-[1000ms] ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-40'
           }`}
       >
 
@@ -509,7 +509,7 @@ export default function AayushVenture() {
               <div className='flex items-center justify-center w-full flex-col md:flex-row' style={{ boxSizing: 'border-box', margin: '0px', padding: '52.9444px 0px', paddingTop: '52.9444px', paddingBottom: '52.9444px' }}>
                 <div className=' w-full md:w-[60%] '>
                   <video className='w-full'
-                    src="https://www.ouiwill.com/wp-content/uploads/2021/06/Section01-1.mp4"
+                    src="https://cdn.shopify.com/videos/c/o/v/da322b82c9bf4a8f8e716b120c4eb173.mp4"
                     autoPlay
                     loop
                     muted
@@ -519,7 +519,24 @@ export default function AayushVenture() {
                 </div>
                 <p className='md:w-[40%] w-full' style={{ boxSizing: 'border-box', margin: '0px 0px 42.3556px', padding: '0px', marginBottom: '42.3556px', lineHeight: '62.1118px', fontSize: '26.4306px' }}><span style={{ boxSizing: 'border-box', margin: '0px', padding: '0px' }}>
 
-                  <p className='text-white text-[25px] text-left md:pl-[40px] md:pr-[40px]  pr-[20px] pl-5' style={{ boxSizing: 'border-box', margin: '0px',  lineHeight: "50px" }}>Since 2013, we’ve garnered over 70 awards and have generated millions in start-up value, launching some of the most iconic tech brands of our era.&nbsp; After realizing that our approach to design generates insane valuation metrics, we introduced a&nbsp; new model – our Digital. Brand. Accelerator.<sup style={{ boxSizing: 'border-box', margin: '0px', padding: '0px' }}>™</sup></p>
+                  <p className='text-white text-[25px] text-left md:pl-[40px] md:pr-[40px]  pr-[20px] pl-5' style={{ boxSizing: 'border-box', margin: '0px',  lineHeight: "50px" }}>
+                  Our investment goes beyond just capital. We provide:
+                  <li>Strategic Funding: We provide investment that drives growth, innovation, and sustainability.
+                  </li>
+                  <li>Mentorship: Access to industry experts for guidance and navigating challenges.
+                  </li>
+                  <li>Networking: We connect you with investors, partners, and influencers to accelerate growth.
+                  </li>
+                  <li>Marketing & Operational Support: Boost efficiency and growth with strategic marketing and streamlined operations.
+
+                  </li>
+                  <li>R&D: Fuel innovation to refine products and stay competitive.
+
+</li>
+<li>Go-to-Market Strategies: Help startups launch and position products for maximum market impact.
+</li>
+                   </p>
+                
                 </span></p>
 
               </div>
