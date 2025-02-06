@@ -83,14 +83,7 @@ export default function AayushVenture() {
   ];
 
   const mobileImages = [
-    {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_ventures_banner_2-_01-02-25_mobile.jpg?v=1738410390',
-
-    },
-    {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_ventures_banner_1-_01-02-25_6.jpg?v=1738409032',
-
-    }
+    { type: "video", src: "https://cdn.shopify.com/videos/c/o/v/8e49cb15678047168d635f2d8e0e244e.mp4" }, // Video Slide
   ];
   const [result, setResult] = React.useState("");
 
@@ -487,16 +480,16 @@ export default function AayushVenture() {
       ))}
     </Slider>
 
-        <div  className='md:p-16' style={{ boxSizing: 'border-box', background: "black", overflowX: "hidden" }}>
+        <div  className='md:p-16 p-[20px]' style={{ boxSizing: 'border-box', background: "black", overflowX: "hidden" }}>
           <p className='md:p-11 max-w-screen-lg' style={{ fontWeight: 300, color: 'rgb(255, 255, 255)', margin: '0px 0px 92.1233px', fontSize: '95.15px', boxSizing: 'border-box', marginBottom: '92.1233px', textAlign: 'left',   position: 'relative' }}>
             <letter-split  className=" w-full" content="$$0$$" style={{ boxSizing: 'border-box', margin: '0px', padding: '0px', position: 'relative', display: 'block',  wordBreak: 'keep-all' }}>
           <div class="headd"  >  At Aayush Wellness, we’re not just investing in companies—we’re shaping the future of health and wellness. By collaborating with forward-thinking startups, we aim to create smarter, more personalized solutions that improve lives.</div>
          
             </letter-split>
-            <span  className=' md:text-[30px]  md:leading-[1]  text-white'>– Mr. Naveena Kumar</span>
+          
           
 <br/>
-            <span  className=' md:text-[20px]  md:leading-[1]  text-white'>  Managing Director, Aayush Wellness Limited</span>
+            <span  className='text-[20px] md:text-[20px]  md:leading-[1]  text-white'>-  Managing Director, Aayush Wellness Limited</span>
          </p>
           <hr style={{ appearance: 'none', border: '0px none rgb(255, 255, 255)', borderRadius: '0px', boxSizing: 'border-box', margin: '0px', padding: '0px', opacity: '0.25', background: 'rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box', height: '1px' }} />
         </div>
@@ -509,7 +502,7 @@ export default function AayushVenture() {
               <div className='flex items-center justify-center w-full flex-col md:flex-row' style={{ boxSizing: 'border-box', margin: '0px', padding: '52.9444px 0px', paddingTop: '52.9444px', paddingBottom: '52.9444px' }}>
                 <div className=' w-full md:w-[50%] '>
                   <video className='w-full'
-                    src="https://www.ouiwill.com/wp-content/uploads/2021/06/Section01-1.mp4"
+                    src="https://cdn.shopify.com/videos/c/o/v/da322b82c9bf4a8f8e716b120c4eb173.mp4"
                     autoPlay
                     loop
                     muted
@@ -554,12 +547,12 @@ export default function AayushVenture() {
 
 
 
-        <div className='flex   items-center justify-center pt-3 p-8'>
+        {/* <div className='flex   items-center justify-center pt-3 p-8'>
           <div class=" pt-4 text-xl md:max-w-screen-lg "><h3 class=" text-center text-2xl pb-4  font-bold"> We are the venture and growth capital arm of Aayush Wellness Limited</h3>We are committed to empowering visionary founders who are shaping the future of health and wellness. We blend industry expertise with venture agility, offering capital, strategic guidance, and a powerful network. Partnering with investors and incubators, we fuel innovation in technology, products, and business models. </div>
 
 
 
-        </div>
+        </div> */}
         {/* 
       <div class="flex  align-center  justify-center pt-3 p-8"><div class=" pt-4 text-xl md:max-w-screen-lg "><h3 class=" text-left text-2xl pb-4  font-bold">Empowering Brands That Drive Innovation</h3>We invest in innovative products and transformative technology in health & wellness.</div></div>
       
@@ -678,7 +671,7 @@ export default function AayushVenture() {
           </div></div>*/}
 
 
-        <div class="flex  align-center  justify-center pt-3 p-8"><div class=" pt-4 text-xl md:max-w-screen-sm "><h3 class=" text-left text-2xl pb-4  font-bold">We would love to hear from you.</h3>
+        {/* <div class="flex  align-center  justify-center pt-3 p-8"><div class=" pt-4 text-xl md:max-w-screen-sm "><h3 class=" text-left text-2xl pb-4  font-bold">We would love to hear from you.</h3>
 
 
 
@@ -696,13 +689,25 @@ export default function AayushVenture() {
           </a>
         </div>
 
-        </div>
+        </div> */}
 
 
 
 
       </div>
+      <div >
+          <div>
+            <div >
+              <img   loading='lazy' className=" w-full hidden md:block" src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Dekstop_3.jpg?v=1738655946" alt="Slide 1" />
+              <img   loading='lazy' className="w-full block md:hidden" src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Mobile_Size.jpg?v=1738655946" alt="Slide 1" />
+             
+            </div>
+           
+            </div>
+          </div>
 
+          <a class="stickywhatsapp" target="_blank" href="https://wa.me/918655900409?text=https://www.aayushwellness.com/aayush-venture Hi"><img src="https://cdn.shopify.com/s/files/1/0606/9298/8070/files/wa-logo-120.png?v=1706167621" width="20" height="20"/> Whatsapp us</a>
+          <a class="stickyemail" target="_blank" href="mailto:info@aayushwellness.com"><img src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/email.png?v=1738847206" width="20" height="20"/> Email Us</a>
 
       <Footer />
     </>
