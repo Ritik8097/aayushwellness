@@ -27,6 +27,7 @@ import ProductCarousel from "./ProductPage";
 import ProductGummies from "./ProductPageGummies";
 import ProductPageSleep from "./ProductPageSleep";
 import AayushVenture from "./AayushVenture";
+import Heath from "./Health";
 import './index.css'
 function App() {
   return (
@@ -59,7 +60,7 @@ function App() {
         <Route path="about/company-intro" element={<CompanyIntro/>}/>
         <Route  path="wellness/health-wellness" element={<HealthWellness/>}/>
         <Route  path="about/mission-vision" element={<MissionVision/>}/>
-
+   <Route path="health" element={<Heath/>}/>
 
         <Route path="ayurveda" element={<Ayurveda/>}/>
         <Route path="sustainability/csr-at-aayush" element={<CsrAtAayush/>}/>
