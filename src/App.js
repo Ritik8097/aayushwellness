@@ -27,6 +27,7 @@ import ProductCarousel from "./ProductPage";
 import ProductGummies from "./ProductPageGummies";
 import ProductPageSleep from "./ProductPageSleep";
 import AayushVenture from "./AayushVenture";
+import Health from "./Health"
 
 import './index.css'
 function App() {
@@ -51,6 +52,8 @@ function App() {
 
         
 <Route  path="aayush-venture" element={<AayushVenture />}/>
+
+  <Route  path="health" element={<Health />}/>
 
         <Route  path="ourproduct" element={<OurProduct />}/>
         <Route path="csr-at-aayush/health-check" element={<HealthCheck/>}/>
