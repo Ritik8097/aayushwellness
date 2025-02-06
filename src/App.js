@@ -51,7 +51,7 @@ function App() {
 
 
         
-<Route  path="aayush-venture" element={<AayushVenture />}/>
+<Route  path="growth-accelerator" element={<AayushVenture />}/>
 
   <Route  path="health" element={<Health />}/>
 
