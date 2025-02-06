@@ -669,13 +669,27 @@ p  {
 
 
 
-
-
-.headd{
-  font-family: sans-serif !important;
-  line-height: 60px;
-    font-size: 50px;
+@media screen and (max-width:768px) {
+  .headd{
+    font-family: sans-serif !important;
+    line-height: 40px;
+      font-size: 20px;
+    
+  }
+  
 }
+
+@media screen and (min-width:768px) {
+  .headd{
+    font-family: sans-serif !important;
+    line-height: 60px;
+      font-size: 50px;
+  }
+  
+  
+}
+
+
 
 
 
@@ -715,7 +729,7 @@ body{
 @media screen and (max-width:768px){
   p{
   
-  line-break: anywhere;
+ 
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight:300;
@@ -782,9 +796,6 @@ nav  .f{
 
 
 
-li{
-  text-align: justify !important;
-}
 
 
 
