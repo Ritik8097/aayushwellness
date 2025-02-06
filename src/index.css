@@ -671,7 +671,7 @@ p  {
 
 @media screen and (max-width:768px) {
   .headd{
-    font-family: sans-serif !important;
+    font-family: "Montserrat", sans-serif;
     line-height: 40px;
       font-size: 20px;
     
@@ -681,7 +681,7 @@ p  {
 
 @media screen and (min-width:768px) {
   .headd{
-    font-family: sans-serif !important;
+    font-family: "Montserrat", sans-serif;
     line-height: 60px;
       font-size: 50px;
   }
