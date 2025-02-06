@@ -66,3 +66,57 @@
     color: white;
   }
   
+
+  a.stickywhatsapp {
+    position: fixed;
+    right: -89px;
+    bottom: 50%;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 10px 0px 0px 10px;
+    color: inherit;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 0 12px 0 #0003;
+}
+
+.stickywhatsapp img {
+    display: inline-block;
+    width: 35px;
+    height: auto;
+    vertical-align: -12px;
+}
+
+
+a.stickywhatsapp:hover{
+    right: -0px;
+}
+
+
+
+a.stickyemail {
+    position: fixed;
+    right: -65px;
+    bottom: 43%;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 10px 0px 0px 10px;
+    color: inherit;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 0 12px 0 #0003;
+}
+
+.stickyemail img {
+    display: inline-block;
+    width: 35px;
+    height: auto;
+    vertical-align: -12px;
+}
+
+
+a.stickyemail:hover{
+    right: -0px;
+}
