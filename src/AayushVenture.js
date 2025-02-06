@@ -483,7 +483,7 @@ export default function AayushVenture() {
         <div  className='md:p-16 p-[20px]' style={{ boxSizing: 'border-box', background: "black", overflowX: "hidden" }}>
           <p className='md:p-11 max-w-screen-lg' style={{ fontWeight: 300, color: 'rgb(255, 255, 255)', margin: '0px 0px 92.1233px', fontSize: '95.15px', boxSizing: 'border-box', marginBottom: '92.1233px', textAlign: 'left',   position: 'relative' }}>
             <letter-split  className=" w-full" content="$$0$$" style={{ boxSizing: 'border-box', margin: '0px', padding: '0px', position: 'relative', display: 'block',  wordBreak: 'keep-all' }}>
-          <div className='text-white md:leading-[70px] leading-[35px] font-[400] text-[25px] text-left   '  >  At Aayush Wellness, we’re not just investing in companies—we’re shaping the future of health and wellness. By collaborating with forward-thinking startups, we aim to create smarter, more personalized solutions that improve lives.</div>
+          <div class="headd"   >  At Aayush Wellness, we’re not just investing in companies—we’re shaping the future of health and wellness. By collaborating with forward-thinking startups, we aim to create smarter, more personalized solutions that improve lives.</div>
          
             </letter-split>
           
@@ -510,9 +510,9 @@ export default function AayushVenture() {
                   // Optional styling
                   />
                 </div>
-                <p className='md:w-[50%] w-full' style={{ boxSizing: 'border-box', margin: '0px 0px 42.3556px', padding: '0px', marginBottom: '42.3556px', lineHeight: '62.1118px', fontSize: '26.4306px' }}><span style={{ boxSizing: 'border-box', margin: '0px', padding: '0px' }}>
+                <p className='md:w-[50%] w-full p-[10px]' style={{ boxSizing: 'border-box', margin: '0px 0px 42.3556px',  marginBottom: '42.3556px' }}><span className='p-[10px]' style={{ boxSizing: 'border-box', margin: '0px'}}>
 
-                  <p class="headd" className='text-[20px] text-white pl-[20px] md:leading-[60px] leading-[40px]'  style={{ boxSizing: 'border-box', margin: '0px' }}>
+                  <p class="headd"  >
                   At Aayush Wellness, we go beyond capital—offering deep industry expertise, Marketing Support,operational guidance, and access to a powerful network to help you accelerate growth and scale sustainably.
                    </p>
                 
