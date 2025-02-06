@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Blog.css'; // Updated CSS filename for consistency
-import Testimonal from './Testimonal';
+
 
 const Carousel = ({ items = [] }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
