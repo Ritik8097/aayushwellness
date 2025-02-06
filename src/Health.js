@@ -27,7 +27,7 @@ const Heath = () => {
    
     <Specialities/>
     <Service/>
-      <Blog  items={items}/>
+     
     <WhatsAppButton/>
     <Footer/>
     </>
