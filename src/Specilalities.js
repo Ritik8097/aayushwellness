@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './specilities.css'; // Make sure the CSS is imported from your CSS file
 import Service from './service';
-import Blog from './Blog'
+
 
 const services = [
   { name: 'Neurology', icon: 'flaticon-man', description: 'Neurology deals with disorders of the nervous system.' },
