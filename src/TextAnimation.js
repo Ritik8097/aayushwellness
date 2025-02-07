@@ -26,7 +26,7 @@ const TextAnimation = () => {
   return (
     <div className="h-[100vh] bg-white flex justify-center items-center p-[15px]">
       <div ref={textRef} className="animated-text headdb">
-        {"Empowering Innovators. Accelerating Success.".split("").map((char, index) => (
+        {"Empowering Innovators. Accelerating Success.".split("  ").map((char, index) => (
           <span
             key={index}
             className={isVisible ? "letter-animate" : ""}
