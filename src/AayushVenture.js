@@ -279,7 +279,7 @@ export default function AayushVenture() {
               <Link to="/support" className=" hover:text-primary/80">Support</Link>
 
 
-
+              <Link to="/growth-accelerator" className=" text-[#a8ff00] hover:text-primary/80">Accelerator</Link>
 
 
             </div>
@@ -444,6 +444,7 @@ export default function AayushVenture() {
 
             <Link to="/career" className="block py-2 px-4  hover:text-primary/80">Careers</Link>
             <Link to="/support" className="block py-2 px-4  hover:text-primary/80">Support</Link>
+            <Link to="/growth-accelerator" className="block py-2 px-4  text-[#a8ff00] hover:text-primary/80">Accelerator</Link>
           </div>
 
 
@@ -516,7 +517,7 @@ export default function AayushVenture() {
                 <p className='md:w-[50%] w-full p-[10px]' style={{ boxSizing: 'border-box', margin: '0px 0px 42.3556px',  marginBottom: '42.3556px' }}><span className='p-[10px]' style={{ boxSizing: 'border-box', margin: '0px'}}>
 
                   <p class="headd"  >
-                  At Aayush Wellness, we go beyond capital offering deep industry expertise, Marketing Support,operational guidance, and access to a powerful network to help you accelerate growth and scale sustainably.
+                  At <span className="text-[#a8ff00]" >Aayush Wellness</span> , we go beyond capital offering deep industry expertise, Marketing Support,operational guidance, and access to a powerful network to help you accelerate <span className="text-[#a8ff00]" >growth</span> and scale sustainably.
                    </p>
                 
                 </span></p>
