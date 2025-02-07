@@ -482,7 +482,7 @@ export default function AayushVenture() {
       ))}
     </Slider>
 
-        <div  className='md:p-16 p-[20px]' style={{ boxSizing: 'border-box', background: "black", overflowX: "hidden" }}>
+        <div  className='md:p-16 p-[20px] translate-y-[-30px]' style={{ boxSizing: 'border-box', background: "black", overflowX: "hidden" }}>
           <div className='md:p-11 flex md:flex-row flex-col-reverse' style={{ fontWeight: 300, color: 'rgb(255, 255, 255)', margin: '0px 0px 92.1233px', fontSize: '95.15px', boxSizing: 'border-box', marginBottom: '92.1233px', textAlign: 'left',   position: 'relative' }}>
             <letter-split  className=" w-full" content="$$0$$" style={{ boxSizing: 'border-box', margin: '0px', padding: '0px', position: 'relative', display: 'block',  wordBreak: 'keep-all' }}>
           <div class="headd"   >  At Aayush Wellness, we’re not just investing in companies—we’re shaping the future of health and wellness. By collaborating with forward-thinking startups, we aim to create smarter, more personalized solutions that improve lives.</div>
