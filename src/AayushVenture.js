@@ -502,7 +502,7 @@ export default function AayushVenture() {
               <div className='flex items-center justify-center w-full flex-col md:flex-row' style={{ boxSizing: 'border-box', margin: '0px', padding: '52.9444px 0px', paddingTop: '52.9444px', paddingBottom: '52.9444px' }}>
                 <div className=' w-full md:w-[50%] '>
                   <video className='w-full'
-                    src="https://cdn.shopify.com/videos/c/o/v/da322b82c9bf4a8f8e716b120c4eb173.mp4"
+                    src="https://cdn.shopify.com/videos/c/o/v/1e673fbda9774460ba5e281e60de1917.mp4"
                     autoPlay
                     loop
                     muted
