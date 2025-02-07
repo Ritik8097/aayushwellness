@@ -90,6 +90,15 @@
   } 
 }     
 
+
+ .slick-slide div:nth-child(1){
+    height: 100vh;
+  }
+
+
+
+
+
 @media (min-width: 768px){ 
   .vc_col-sm-12 { 
     float: left;
