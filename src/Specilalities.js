@@ -166,7 +166,7 @@ const Specialities = () => {
               <div className="single-services">
                 {/* <span className={service.icon} /> */}
                 <div className="w-full flex items-center justify-center">
-               <img style={{borderRadius:"50%"}} className="h-[100px]  " src={service.roundImage} />
+               <img style={{borderRadius:"50%"}} className="w-[100px]  " src={service.roundImage} />
                </div>
                 <h3>{service.name}</h3>
                 <button className="read-more" onClick={() => openModal(service)}>
