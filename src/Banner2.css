@@ -8,7 +8,7 @@
     width: 100%; 
     padding: 50px; 
     margin-bottom: 0px;   
-    transform: translateY(-110px);       
+          
 } 
 
 *,:after,:before { 
@@ -90,14 +90,21 @@
     padding-left: 90px;
 } 
 
-img { 
-    vertical-align: middle;
+.first-facility-item img{
+  width: 60px;
 } 
 
-img { 
-    max-width: 100%; 
-    height: auto;
-} 
+
+.facility-content {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.facility-icon {
+  width: 40px;
+  height: auto;
+}
 
 .first-facility-item i  { 
     border: 1px dashed var(--primary-theme); 
@@ -182,9 +189,7 @@ p:last-child {
 .flaticon-care:before { 
     content: "\f107";
 } 
-
-
-/* These were inline style tags. Uses id+class to override almost everything */    
+    
 #style-sX8cX.style-sX8cX {  
    display: block;  
     overflow: hidden;  
