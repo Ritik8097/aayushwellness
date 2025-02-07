@@ -11,6 +11,7 @@ import closepng from './images/close.png';
 import searchIcon from './images/search-gray.svg'
 import Footer from './Footer';
 import VentureSection1 from './VentureSection1';
+import TextAnimation from './TextAnimation';
 
 
 function AnimatedText({ heading, subtext, url, buttonText, isVisible }) {
@@ -501,11 +502,17 @@ export default function AayushVenture() {
        
         </div>
 
-        <div className=' h-[100vh] bg-white flex justify-center items-center p-[15px]'>
-          <div>
-                  <h2 className=' text-center'>Empowering Innovators. Accelerating Success.</h2>
-          </div>
-        </div>
+        {/* <div className=' h-[100vh] bg-white flex justify-center items-center p-[15px]'>
+        <div class="animated-text headdb">
+  <span>E</span><span>m</span><span>p</span><span>o</span><span>w</span><span>e</span><span>r</span><span>i</span><span>n</span><span>g</span>
+  <span>I</span><span>n</span><span>n</span><span>o</span><span>v</span><span>a</span><span>t</span><span>o</span><span>r</span><span>s</span><span>.</span>
+  <span>A</span><span>c</span><span>c</span><span>e</span><span>l</span><span>e</span><span>r</span><span>a</span><span>t</span><span>i</span><span>n</span><span>g</span>
+  <span>S</span><span>u</span><span>c</span><span>c</span><span>e</span><span>s</span><span>s</span><span>.</span>
+</div>
+
+        </div> */}
+
+<TextAnimation/>
 
 
 
