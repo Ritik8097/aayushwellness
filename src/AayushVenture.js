@@ -456,10 +456,10 @@ export default function AayushVenture() {
       </nav>
 
 <VentureSection1/>
-      <div  ref={sliderRef}>
+      <div   ref={sliderRef}>
       <Slider {...sliderSettings}>
       {images.map((slide, index) => (
-        <div key={index} className=" bg-black">
+        <div  key={index} className=" bg-black ">
           {slide.type === "video" ? (
             <video
               className="w-full h-[100vh] object-cover"
@@ -495,7 +495,16 @@ export default function AayushVenture() {
          <img className='md:w-[45%] w-full' src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Vision_Image.jpg?v=1738913950"/>  
          
          </div>
-          <hr style={{ appearance: 'none', border: '0px none rgb(255, 255, 255)', borderRadius: '0px', boxSizing: 'border-box', margin: '0px', padding: '0px', opacity: '0.25', background: 'rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box', height: '1px' }} />
+          {/* <hr style={{ appearance: 'none', border: '0px none rgb(255, 255, 255)', borderRadius: '0px', boxSizing: 'border-box', margin: '0px', padding: '0px', opacity: '0.25', background: 'rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box', height: '1px' }} />
+        */}
+       
+       
+        </div>
+
+        <div className=' h-[100vh] bg-white flex justify-center items-center p-[15px]'>
+          <div>
+                  <h2 className=' text-center'>Empowering Innovators. Accelerating Success.</h2>
+          </div>
         </div>
 
 
