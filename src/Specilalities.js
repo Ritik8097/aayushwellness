@@ -158,7 +158,7 @@ const Specialities = () => {
         )}
 
         <div className="section-title">
-          <h2>Our Specialities</h2>
+          <h2>OUR SPECIALITIES</h2>
         </div>
         <div className="row">
           {services.map((service, index) => (
