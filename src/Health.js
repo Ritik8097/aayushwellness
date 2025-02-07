@@ -4,7 +4,10 @@ import Footer from './Footer'
 import Banner from './Banner'
 import Specialities from './Specilalities'
 
-import Service from './Service'
+import Service from './service'
+import Blog from './Blog'
+import Testimonal from './Testimonal'
+import Banner2 from './Banner2'
 
 
 const items = [
@@ -24,14 +27,15 @@ const Health = () => {
     <>
     <Header/>
     <Banner/>
-   
-    <Specialities/>
+    <Banner2/>
+     <Specialities/>
     <Service/>
-     
-
+    <Blog  items={items}/>
+    <Testimonal items={items}/>
+    
     <Footer/>
     </>
   )
 }
 
-export default Health
+export default Health;
