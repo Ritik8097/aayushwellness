@@ -3,12 +3,14 @@
     color: black;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .animated-text span {
     opacity: 0;
     transform: translateY(-10px);
     display: inline-block;
+    text-align: center;
   }
   
   /* Animate each letter randomly */
