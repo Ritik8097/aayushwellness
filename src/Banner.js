@@ -62,7 +62,7 @@ const Banner = () => {
           {item.type === 'image' ? (
             <img
               loading="lazy"
-              className="w-full object-contain h-[100vh]"
+              className="w-full object-contain h-[100vh] pt-[80px]"
               src={item.src}
               alt={`Slide ${index + 1}`}
              
@@ -70,7 +70,7 @@ const Banner = () => {
           ) : (
             <video
               ref={(el) => (videoRefs.current[index] = el)}
-              className="w-full object-cover h-[100vh]"
+              className="w-full object-cover h-[100vh] pt-[110px]"
               autoPlay
               loop
               muted
