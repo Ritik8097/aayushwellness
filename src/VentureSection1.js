@@ -13,12 +13,12 @@ const VentureSection1 = () => {
 
   return (
     <div  className={`containe ${animate ? "animate" : ""}` }>
-      <h1 class="text" >Innovate. Scale. Transform.</h1>
+      <h1 class="text" >Innovate. Scale. <span className="text-[#a8ff00]">Transform.</span></h1>
      
       <div className="overlay"></div>
        {/* Get in Touch Button */}
        <a href="https://wa.me/918655900409?text=https://www.aayushwellness.com/aayush-venture Hi">
-       <button  className="absolute bottom-10 left-10 md:left-24 flex items-center gap-2 px-6 py-3 text-black bg-white rounded-full text-lg font-medium hover:scale-105 transition">
+       <button  className="absolute bottom-10 left-10 md:left-24 flex items-center gap-2 px-6 py-3 text-black bg-[#a8ff00] rounded-full text-lg font-medium hover:scale-105 transition">
   <span>➝</span> Get in touch
 </button>
 </a>
