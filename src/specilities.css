@@ -25,7 +25,7 @@
     margin-right: auto; 
     margin-left: auto;
     margin-top: 0 !important;
-    padding-top: 10px; /* Adjust this value as needed */
+    padding-top: 10px; 
 } 
 
 @media (min-width: 576px){ 
@@ -152,7 +152,7 @@ p:last-child {
 
 @media (min-width: 576px){ 
   .col-sm-6 { 
-    width: 50%;
+    width: 30%;
   } 
 
   .col-sm-6 { 
@@ -185,7 +185,7 @@ p:last-child {
     background-color: #e7e5e5; 
     -webkit-box-shadow: 0 0 20px 3px rgba(0,0,0,.05); 
     box-shadow: 0 0 20px 3px rgba(134, 134, 134, 0.05);
-    /* box-shadow: 0 0 20px 3px rgba(37, 35, 35, 0.05);  */
+    
     padding: 30px; 
     position: relative; 
     z-index: 1; 
@@ -334,7 +334,7 @@ h3 {
 }     
 
 h3 { 
-    color: var(--primary-dark); 
+    /* color: var(--primary-dark);  */
     font-weight: 700; 
     font-family: Roboto,sans-serif;
 } 
@@ -343,10 +343,7 @@ h3 {
     font-size: 21px;
 } 
 
-/* a { 
-    color: #0d6efd; 
-    text-decoration: underline;
-}  */
+
 
 a { 
     display: inline-block; 
@@ -449,7 +446,7 @@ a:hover {
     text-rendering: auto; 
     display: inline-block; 
     text-transform: none; 
-    /* speak: none;  */
+   
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
 } 
@@ -471,3 +468,26 @@ img {
     max-width: 100%; 
     height: auto;
 } 
+
+
+.text-2xl {
+    font-family: "Source Serif 4", serif ;
+    font-size: 36;
+    color: #11bca3 ;
+    font-weight: normal ;
+}
+
+
+
+.bg-wrapper {
+    background-image: url('https://cdn.shopify.com/s/files/1/0653/9830/9053/files/1_c0dbdc73-e491-4c55-96a1-2215dcf7fe0b.jpg?v=1738915774');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+  }
+  
+  .relative.container {
+    position: relative;
+    
+  }
