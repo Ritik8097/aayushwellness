@@ -4,7 +4,7 @@ import Footer from './Footer'
 import Banner from './Banner'
 import Specialities from './Specilalities'
 
-import Service from './service'
+import Service from './Service'
 import Blog from './Blog'
 import Testimonal from './Testimonal'
 import Banner2 from './Banner2'
