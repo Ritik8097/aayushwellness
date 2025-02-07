@@ -77,13 +77,13 @@ export default function AayushVenture() {
 
   const desktopImages = [
   
-    { type: "video", src: "https://cdn.shopify.com/videos/c/o/v/001f6cb05411460c8a1847951ff5ffe7.mp4" }, // Video Slide
+    { type: "video", src: "https://cdn.shopify.com/videos/c/o/v/fb209ef1263a4fc88cdee051cad69731.mp4" }, // Video Slide
     
    
   ];
 
   const mobileImages = [
-    { type: "video", src: "https://cdn.shopify.com/videos/c/o/v/8e49cb15678047168d635f2d8e0e244e.mp4" }, // Video Slide
+    { type: "video", src: "https://cdn.shopify.com/videos/c/o/v/f2acc93d68594e21b519d8c9ce6f8a35.mp4" }, // Video Slide
   ];
   const [result, setResult] = React.useState("");
 
