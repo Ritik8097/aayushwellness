@@ -1,141 +1,50 @@
-/* Carousel.css */
-.carousell-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    width: 100%;
-    padding: 80px 0;
-  }
-  
-  .carousell {
-    width: 1160px; 
-    overflow: hidden;
-  }
-  
-  .carousell-inner {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  
-  .slidee {
-    flex: 0 0 360px;
-    margin-right: 20px; 
-  }
-  
-  .prev,
-.nextt {
-  cursor: pointer;
-  background: none;
-  border: none;
-  outline: none;
+.carousel-container {
+  width: 100%;
+  max-width: 1160px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.carousel-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 340px;
+  height: 200px;
+  background-color: rgb(15, 160, 143);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
-.size-6 {
-  width: 24px;
-  height: 24px;
+.card-content p {
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
 }
-  
-  .dots {
-    position: absolute;
-  top: 4000px; 
-  left: 50%;
-  transform: translateX(-50%); 
-  display: flex;
-  justify-content: center;
-  }
-  
-  .dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #bbb;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
-  .dot.active {
-    background-color: #555;
-  }
-  
 
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .carousel-title {
+    font-size: 20px;
+  }
+}
 
-  .cardd {
-    width: 340px !important; /* Fixed width */
-    height: 200px !important; /* Fixed height */
-    background-color: rgb(15, 160, 143);
-    border-radius: 10px;
-    /* border: 2px solid black; */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    text-align: center;
+@media (max-width: 480px) {
+  .carousel-title {
+    font-size: 18px;
   }
-  
-  .card-contentt {
-    font-size: 14px;
-    color: #333;
-    line-height: 1.5;
-  }
-  
-  .testimonal-titlee {
-    padding-top: 50px;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-
-
-  
-  @media (max-width: 768px) {
-    .carousel-inner {
-      width: 100%; 
-    }
-  
-    .slide {
-      width: calc(50% - 20px); 
-    }
-  
-    .card-content {
-      font-size: 12px; 
-    }
-  
-    
-    .testimonal-title h2 {
-      font-size: 24px;
-    }
-  
-    button.prev, button.next {
-      font-size: 18px; 
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .slide {
-      width: 100%; 
-    }
-  
-    .card {
-      padding: 15px;
-    }
-  
-    .card-content {
-      font-size: 14px; 
-    }
-  
-   
-    .testimonal-title h2 {
-      font-size: 20px;
-    }
-  
-    button.prev, button.next {
-      font-size: 16px; 
-    }
-  }
+}
