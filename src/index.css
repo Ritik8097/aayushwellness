@@ -69,9 +69,7 @@
   } 
 
 
-  .slick-slide div:nth-child(1){
-    height: 100vh;
-  }
+ 
 
   .vc_column_container > .vc_column-inner  { 
     box-sizing: border-box; 
