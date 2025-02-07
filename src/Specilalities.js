@@ -1,30 +1,104 @@
-import React, { useState } from 'react';
-import './specilities.css'; // Make sure the CSS is imported from your CSS file
-
-
+import React, { useState } from "react";
+import "./specilities.css"; 
 
 const services = [
-  { name: 'Neurology', icon: 'flaticon-man', description: 'Neurology deals with disorders of the nervous system.' },
-  { name: 'Orthopedic Care', icon: 'flaticon-walker', description: 'Orthopedic care focuses on bones, joints, and muscles.' },
-  { name: 'Paediatrics', icon: 'flaticon-man', description: 'Paediatrics focuses on medical care for infants and children.' },
-  { name: 'Medicine', icon: 'flaticon-liver', description: 'General medicine covers a wide range of health concerns.' },
-  { name: 'Gynecology', icon: 'flaticon-kidney', description: 'Gynecology focuses on women’s reproductive health.' },
-  { name: 'Nutrition & Dietetics', icon: 'flaticon-heart', description: 'Nutrition helps maintain a balanced and healthy diet.' },
-  { name: 'Dermatology', icon: 'flaticon-brain', description: 'Dermatology deals with skin-related issues and care.' },
-  { name: 'Diabetology', icon: 'flaticon-walker', description: 'Diabetology specializes in diabetes management.' }
+  {
+    name: "Comprehensive Care",
+    icon: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons.png?v=1738922599",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/401.jpg?v=1738848417",
+    roundImage:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_11.png?v=1738924955",
+    description: [
+      "At Aayush Wellness Center, we offer a full spectrum of medical services, ensuring that every patient receives expert diagnosis and treatment.",
+      "General Medicine & Critical Care – Our experienced physicians provide advanced treatments for acute and chronic illnesses, including emergency care and intensive monitoring.",
+      "Specialized Departments – We cater to various health needs with departments for pediatrics, women’s health, urology, orthopedics, ENT, and more",
+      "Preventive Healthcare – Regular check-ups, screenings, and early disease detection help in maintaining long-term health.",
+    ],
+  },
+  {
+    name: "Advanced Surgeries",
+    icon: "flaticon-walker",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/surgery-team-working-together-operating-room-hospital.jpg?v=1738848243",
+    roundImage:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_22.png?v=1738924954",
+    description: [
+      "Our surgical expertise ensures precision, safety, and faster recovery through advanced techniques.",
+      "Laparoscopic & Minimal Invasive Surgeries – Procedures with small incisions, leading to less pain, reduced scarring, and quicker recovery.",
+      "Orthopedic & Joint Replacement Surgeries – Cutting-edge treatments for bone, ligament, and joint issues, restoring mobility and quality of life.",
+      "Cosmetic & Reconstructive Surgeries – Enhancing natural beauty and restoring confidence through aesthetic and reconstructive surgical solutions.",
+    ],
+  },
+  {
+    name: "Holistic Wellness",
+    icon: "flaticon-man",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/girl-doing-yoga.jpg?v=1738848243",
+    roundImage:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_33.png?v=1738924955",
+    description: [
+      "We believe in integrating modern medicine with traditional healing for complete well-being.",
+      "Ayurveda & Herbal Health Solutions – Ancient herbal therapies and natural remedies for sustainable health.",
+      'Nutraceuticals & Immunity Boosting Products – Science-backed supplements designed to enhance immunity and overall wellness.',
+      ' Mental Wellness & Stress Management – Programs focused on mindfulness, relaxation techniques, and mental health support.'
+    ],
+  },
+  {
+    name: "Modern Infrastructure",
+    icon: "flaticon-liver",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/a-photo-of-a-side-view-of-a-modern-healt_gCjhNCAUTt6vVl3QNEF5QQ_WWlaYNV4S4qhs4ClUT-DJw.jpg?v=1738849485",
+    roundImage:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_44.png?v=1738924954",
+    description:[
+        "Our state-of-the-art facilities are designed for patient comfort, safety, and advanced medical care.",
+        "High-Tech Medical Facilities – Equipped with modern ICUs, diagnostic labs, and operation theaters.",
+        'Patient-Centric Design – Comfortable, hygienic, and welcoming spaces to ensure stress-free treatment experiences.',
+        ' Day Care Surgeries – Safe and efficient procedures that allow patients to return home the same day.'
+      ]
+  },
+  {
+    name: "Expert Medical Team",
+    icon: "flaticon-kidney",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/2151696318.jpg?v=1738848351",
+    roundImage:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_55.png?v=1738924955",
+    description: [
+        "We bring together renowned medical professionals committed to patient well-being.",
+        "Top-Tier Doctors & Surgeons – Specialists across various fields providing best-in-class treatment.",
+        'Compassionate & Professional Staff – A team of nurses, therapists, and healthcare professionals dedicated to holistic patient care.',
+        'Multi-Disciplinary Approach – Every patient receives personalized treatment tailored to their specific needs.'
+      ],
+  },
+  {
+    name: "Affordable  Healthcare",
+    icon: "flaticon-heart",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/front-view-doctor-holding-medical-element.jpg?v=1738849591",
+    roundImage:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_66.png?v=1738924955",
+    description: [
+        "Quality healthcare should be within reach for everyone.",
+        "Cost-Effective Treatment Plans – We offer affordable pricing without compromising on quality.",
+        'Insurance & Cashless Facilities – Hassle-free insurance processing and cashless transaction options.',
+        'Expanding Locations – We are growing across the country to make premium healthcare accessible to more people.'
+      ],
+  },
+  {
+    name: "Innovation & Research",
+    icon: "flaticon-brain",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/2148820161.jpg?v=1738849735",
+    roundImage:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_77.png?v=1738924954",
+    description:[
+        "We continuously evolve with the latest medical advancements to offer cutting-edge treatments.",
+        "AI-Driven Healthcare Services – Smart diagnostics, virtual consultations, and telemedicine support.",
+        'Integrating Traditional & Modern Medicine – A synergistic approach that blends ancient healing techniques with scientific advancements.',
+        'Ongoing Research & Development – We invest in medical research to bring breakthrough treatments to our patients.'
+      ],
+  },
+  {
+    name: "Franchise Excellence",
+    icon: "flaticon-walker",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/84801.jpg?v=1738849843",
+    roundImage:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_88.png?v=1738924955", 
+    description: [
+        "Aayush Wellness Center offers a proven, scalable business model for entrepreneurs in the healthcare sector.",
+        " Proven Business Success – A strong, well-established brand with a track record of excellence.",
+        ' Nationwide Expansion – We are actively growing, offering franchise opportunities in multiple cities.',
+        'Trust & Credibility – Our name is synonymous with quality, innovation, and patient-first care.'
+      ],
+  },
 ];
-
-const items = [
-    { text: ["Aayush Wellness Healthcare Offers World-Class Healthcare Services in Mumbai Suburbs with Affordable Medical Treatments", ] },
-    { text: ["Aayush Wellness Healthcare Offers World-Class Healthcare Services in Mumbai Suburbs with Affordable Medical Treatments", ] },
-    { text: ["Aayush Wellness Healthcare Offers World-Class Healthcare Services in Mumbai Suburbs with Affordable Medical Treatments", ] },
-    { text: ["Aayush Wellness Healthcare Offers World-Class Healthcare Services in Mumbai Suburbs with Affordable Medical Treatments", ] },
-    { text: ["Aayush Wellness Healthcare Offers World-Class Healthcare Services in Mumbai Suburbs with Affordable Medical Treatments", ] },
-    { text: ["Aayush Wellness Healthcare Offers World-Class Healthcare Services in Mumbai Suburbs with Affordable Medical Treatments", ] },
-    { text: ["Aayush Wellness Healthcare Offers World-Class Healthcare Services in Mumbai Suburbs with Affordable Medical Treatments", ] },
-    { text: ["Aayush Wellness Healthcare Offers World-Class Healthcare Services in Mumbai Suburbs with Affordable Medical Treatments", ] },
-    { text:["Aayush Wellness Healthcare Offers World-Class Healthcare Services in Mumbai Suburbs with Affordable Medical Treatments", ] },
-  ];
 
 const Specialities = () => {
   const [selectedService, setSelectedService] = useState(null);
@@ -38,40 +112,78 @@ const Specialities = () => {
   };
 
   return (
-    <div className="relative container snipcss-ZeGaQ">
-      {/* Modal */}
-      {selectedService && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 z-50">
-          <div className="bg-white rounded-lg shadow-xl p-8 w-full max-w-2xl h-auto md:h-[500px] text-center relative">
-            <h3 className="text-2xl font-semibold mb-4">{selectedService.name}</h3>
-            <p className="text-gray-600 mb-6">{selectedService.description}</p>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onClick={closeModal}>Close</button>
-          </div>
-        </div>
-      )}
-      
-      <div className="section-title">
-        <h2>Our Specialities</h2>
-      </div>
-      <div className="row">
-        {services.map((service, index) => (
-          <div key={index} className="col-lg-3 col-sm-6">
-            <div className="single-services">
-              <span className={service.icon} />
-              <h3>{service.name}</h3>
-              <button className="read-more" onClick={() => openModal(service)}>Learn More <i className="bx bx-plus" /></button>
-              <div className="services-shape">
-                <img src="https://www.xpresscure.com/img/services-card-shape.png" alt="Image" />
+    <div className="bg-wrapper">
+      <div className="relative container">
+        {/* Modal */}
+        {selectedService && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 z-50">
+            <div className="bg-white rounded-lg shadow-xl p-8 w-full max-w-3xl relative flex flex-col">
+              {/* Title Centered on Top */}
+              <h3 className="text-[40px] font-extrabold mb-4  text-center" style={{ color: "#0faf9d" }}>
+                {selectedService.name}
+              </h3>
+              
+              <div className="flex flex-col md:flex-row items-center">
+                {/* Left Content */}
+                <div className="md:w-2/3 w-full pr-0 md:pr-6 text-center">
+                  {Array.isArray(selectedService.description) ? (
+                    <ul className=" text-left list-disc list-inside mb-6" style={{ color: "#000000" }}>
+                      {selectedService.description.map((item, index) => (
+                        <li key={index}>{item}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className=" mb-6" >{selectedService.description}</p>
+                  )}
+                </div>
+
+                {/* Right Image (Goes Below Content on Mobile) */}
+                <div className="md:w-1/3 w-full mt-4 md:mt-0 flex justify-center">
+                  <img
+                    src={selectedService.image}
+                    alt={selectedService.name}
+                    className="rounded-lg shadow-md w-full h-auto md:h-64 object-cover"
+                  />
+                </div>
               </div>
+
+              <button
+                className="absolute top-4 right-4 text-gray-600 hover:text-gray-800 text-2xl font-bold"
+                onClick={closeModal}
+              >
+                &times;
+              </button>
             </div>
           </div>
-        ))}
+        )}
+
+        <div className="section-title">
+          <h2>Our Specialities</h2>
+        </div>
+        <div className="row">
+          {services.map((service, index) => (
+            <div key={index} className="col-lg-3 col-sm-6">
+              <div className="single-services">
+                {/* <span className={service.icon} /> */}
+                <div className="w-full flex items-center justify-center">
+               <img style={{borderRadius:"50%"}} className="h-[100px]  " src={service.roundImage} />
+               </div>
+                <h3>{service.name}</h3>
+                <button className="read-more" onClick={() => openModal(service)}>
+                  Learn More <i className="bx bx-plus" />
+                </button>
+                <div className="services-shape">
+                  <img
+                    src="https://www.xpresscure.com/img/services-card-shape.png"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-   
-    
     </div>
-
-
   );
 };
 
