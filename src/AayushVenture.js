@@ -77,13 +77,13 @@ export default function AayushVenture() {
 
   const desktopImages = [
   
-    { type: "video", src: "https://cdn.shopify.com/videos/c/o/v/fb209ef1263a4fc88cdee051cad69731.mp4" }, // Video Slide
+    { type: "video", src: "https://cdn.shopify.com/videos/c/o/v/001f6cb05411460c8a1847951ff5ffe7.mp4" }, // Video Slide
     
    
   ];
 
   const mobileImages = [
-    { type: "video", src: "https://cdn.shopify.com/videos/c/o/v/f2acc93d68594e21b519d8c9ce6f8a35.mp4" }, // Video Slide
+    { type: "video", src: "https://cdn.shopify.com/videos/c/o/v/8e49cb15678047168d635f2d8e0e244e.mp4" }, // Video Slide
   ];
   const [result, setResult] = React.useState("");
 
@@ -481,16 +481,19 @@ export default function AayushVenture() {
     </Slider>
 
         <div  className='md:p-16 p-[20px]' style={{ boxSizing: 'border-box', background: "black", overflowX: "hidden" }}>
-          <p className='md:p-11 max-w-screen-lg' style={{ fontWeight: 300, color: 'rgb(255, 255, 255)', margin: '0px 0px 92.1233px', fontSize: '95.15px', boxSizing: 'border-box', marginBottom: '92.1233px', textAlign: 'left',   position: 'relative' }}>
+          <div className='md:p-11 flex md:flex-row flex-col-reverse' style={{ fontWeight: 300, color: 'rgb(255, 255, 255)', margin: '0px 0px 92.1233px', fontSize: '95.15px', boxSizing: 'border-box', marginBottom: '92.1233px', textAlign: 'left',   position: 'relative' }}>
             <letter-split  className=" w-full" content="$$0$$" style={{ boxSizing: 'border-box', margin: '0px', padding: '0px', position: 'relative', display: 'block',  wordBreak: 'keep-all' }}>
           <div class="headd"   >  At Aayush Wellness, we’re not just investing in companies—we’re shaping the future of health and wellness. By collaborating with forward-thinking startups, we aim to create smarter, more personalized solutions that improve lives.</div>
+          <br/>
+            <span  className='text-[25px] md:text-[30px]  md:leading-[1]  text-[#a8ff00]'>-  Managing Director, <br/> <p  className='pt-[14px] text-[20px] md:text-[20px]  md:leading-[1]  text-white'>Aayush Wellness Limited</p></span>
          
             </letter-split>
           
           
-<br/>
-            <span  className='text-[25px] md:text-[30px]  md:leading-[1]  text-[#a8ff00]'>-  Managing Director, <br/> <p  className='pt-[14px] text-[20px] md:text-[20px]  md:leading-[1]  text-white'>Aayush Wellness Limited</p></span>
-         </p>
+
+         <img className='md:w-[45%] w-full' src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Vision_Image.jpg?v=1738913950"/>  
+         
+         </div>
           <hr style={{ appearance: 'none', border: '0px none rgb(255, 255, 255)', borderRadius: '0px', boxSizing: 'border-box', margin: '0px', padding: '0px', opacity: '0.25', background: 'rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box', height: '1px' }} />
         </div>
 
@@ -513,7 +516,7 @@ export default function AayushVenture() {
                 <p className='md:w-[50%] w-full p-[10px]' style={{ boxSizing: 'border-box', margin: '0px 0px 42.3556px',  marginBottom: '42.3556px' }}><span className='p-[10px]' style={{ boxSizing: 'border-box', margin: '0px'}}>
 
                   <p class="headd"  >
-                  At Aayush Wellness, we go beyond capital—offering deep industry expertise, Marketing Support,operational guidance, and access to a powerful network to help you accelerate growth and scale sustainably.
+                  At Aayush Wellness, we go beyond capital offering deep industry expertise, Marketing Support,operational guidance, and access to a powerful network to help you accelerate growth and scale sustainably.
                    </p>
                 
                 </span></p>
@@ -698,7 +701,7 @@ export default function AayushVenture() {
       <div >
           <div>
             <div >
-              <img   loading='lazy' className=" w-full hidden md:block" src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Dekstop_3.jpg?v=1738655946" alt="Slide 1" />
+              <img   loading='lazy' className=" w-full hidden md:block" src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Dekstop_2_0c883aa8-68d4-4731-b8f5-09e47a6e3461.jpg?v=1738914723" alt="Slide 1" />
               <img   loading='lazy' className="w-full block md:hidden" src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Mobile_Size.jpg?v=1738655946" alt="Slide 1" />
              
             </div>
