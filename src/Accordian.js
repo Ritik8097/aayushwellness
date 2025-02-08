@@ -79,7 +79,7 @@ const Accordionweb = () => {
             <div className="container-fluid mt-5 mb-5 max-w-3xl mx-auto p-2">
                 <div className="row justify-content-center">
                     <div className="col-md-8 mt-2">
-                        <div className="card">
+                        <div className="cardd">
                             <div className="card-body p-3">
                                 <h4 className="form-heading mb-4 text-primary text-center mt-3">Reports</h4>
                                 {faqs.map((faq) => (
