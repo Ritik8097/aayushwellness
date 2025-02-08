@@ -43,6 +43,10 @@
     margin-bottom: 20px;
     padding: 0 20px; 
   }
+
+.testimonal-content p{
+    font-size: 22px;
+}
   
   .client-info {
     display: flex;
@@ -63,7 +67,7 @@
   }
   
   .name {
-    font-size: 10px;
+    font-size: 25px;
     font-weight: bold;
     color: #333;
     margin: 5px 0;
