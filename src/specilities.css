@@ -6,6 +6,9 @@
     box-sizing: border-box;
 } 
 
+.imgg{
+  padding-top:0px !important;
+}
 
 @media (prefers-reduced-motion: no-preference){ 
   :root { 
