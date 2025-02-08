@@ -13,28 +13,42 @@ const testimonials = [
     role: "Patient",
     feedback:
       "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. Now about Dr. Kant Shah, he certainly knows how to keep the patients and their parents relaxed at all times while also encompassing ample patience to not only understand the condition of the patient but also answer each and every query no matter how long it takes.",
-    image: "path-to-image1.jpg",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_1.png?v=1738994293",
   },
   {
-    name: "Kajal Talreja",
+    name: "Karan Talreja",
     role: "Patient",
     feedback:
-      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. Now about Dr. Kant Shah, he certainly knows how to keep the patients and their parents relaxed at all times while also encompassing ample patience to not only understand the condition of the patient but also answer each and every query no matter how long it takes.",
-    image: "path-to-image2.jpg",
+      "One of the best doctors in Mumbai would be an understatement. ",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_2.png?v=1738994293",
   },
   {
     name: "Tasmay Ved",
     role: "Patient",
     feedback:
-      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. Now about Dr. Kant Shah, he certainly knows how to keep the patients and their parents relaxed at all times while also encompassing ample patience to not only understand the condition of the patient but also answer each and every query no matter how long it takes.",
-    image: "path-to-image3.jpg",
+      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. .",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_3.png?v=1738994294",
   },
   {
     name: "CA Piyush Gupta (F/o Nitya Gupta)",
     role: "Patient",
     feedback:
-      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. Now about Dr. Kant Shah, he certainly knows how to keep the patients and their parents relaxed at all times while also encompassing ample patience to not only understand the condition of the patient but also answer each and every query no matter how long it takes.",
-    image: "path-to-image4.jpg",
+      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. Now about Dr. Kant Shah, he certainly knows how to keep the patients and their parents relaxed at all times while also encompassing ample patience to not only understand ",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_4.png?v=1738994293",
+  },
+  {
+    name: "CA Piyush Gupta (F/o Nitya Gupta)",
+    role: "Patient",
+    feedback:
+      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. Now about Dr. Kant Shah, he certainly knows how to keep the patients and their parents relaxed at all times while also encompassing ample patience to not only understand ",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_5.png?v=1738994293",
+  },
+  {
+    name: "CA Piyush Gupta (F/o Nitya Gupta)",
+    role: "Patient",
+    feedback:
+      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. Now about Dr. Kant Shah, he certainly knows how to keep the patients and their parents relaxed at all times while also encompassing ample patience to not only understand ",
+    image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_7.png?v=1738994294",
   },
 ];
 
@@ -89,7 +103,6 @@ export default function TestimonialSlider() {
     </div>
   );
 }
-
 
 
 
