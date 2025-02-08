@@ -116,49 +116,54 @@ const Specialities = () => {
       <div className="relative container">
         {/* Modal */}
         {selectedService && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 z-50">
-            <div className="bg-white rounded-lg shadow-xl p-8 w-full max-w-3xl relative flex flex-col">
-              {/* Title Centered on Top */}
-              <h3 className="text-[40px] font-extrabold mb-4  text-center" style={{ color: "#0faf9d" }}>
-                {selectedService.name}
-              </h3>
-              
-              <div className="flex flex-col md:flex-row items-center">
-                {/* Left Content */}
-                <div className="md:w-2/3 w-full pr-0 md:pr-6 text-center">
-                  {Array.isArray(selectedService.description) ? (
-                    <ul className=" text-left list-disc list-inside mb-6" style={{ color: "#000000" }}>
-                      {selectedService.description.map((item, index) => (
-                        <li key={index}>{item}</li>
-                      ))}
-                    </ul>
-                  ) : (
-                    <p className=" mb-6" >{selectedService.description}</p>
-                  )}
-                </div>
+  <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 z-50">
+  <div className="bg-white rounded-lg shadow-xl p-4 md:p-8 w-full max-w-4xl relative flex flex-col">
+    
+    {/* Title Centered at the Top */}
+    <h3 className="text-[24px] md:text-[40px] font-extrabold mb-4 text-center" style={{ color: "#0faf9d" }}>
+      {selectedService.name}
+    </h3>
 
-                {/* Right Image (Goes Below Content on Mobile) */}
-                <div className="md:w-1/3 w-full mt-4 md:mt-0 flex justify-center">
-                  <img
-                    src={selectedService.image}
-                    alt={selectedService.name}
-                    className="rounded-lg shadow-md w-full h-auto md:h-64 object-cover"
-                  />
-                </div>
-              </div>
-
-              <button
-                className="absolute top-4 right-4 text-gray-600 hover:text-gray-800 text-2xl font-bold"
-                onClick={closeModal}
-              >
-                &times;
-              </button>
-            </div>
-          </div>
+    {/* Main Content Layout */}
+    <div className="flex flex-col md:flex-row items-start md:items-stretch">
+      
+      {/* Left Side: Description */}
+      <div className="md:w-1/2 w-full">
+        {Array.isArray(selectedService.description) ? (
+          <ul className="text-left list-disc list-inside space-y-2 text-sm md:text-base" style={{ color: "#000000" }}>
+            {selectedService.description.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-sm md:text-base">{selectedService.description}</p>
         )}
+      </div>
+
+      {/* Right Side: Image */}
+      <div className="md:w-1/2 w-full h-full flex justify-center">
+        <img
+          src={selectedService.image}
+          alt={selectedService.name}
+          className="rounded-lg shadow-md w-full h-full object-cover"
+        />
+      </div>
+      
+    </div>
+
+    {/* Close Button */}
+    <button
+      className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 text-xl md:text-2xl font-bold"
+      onClick={closeModal}
+    >
+      &times;
+    </button>
+  </div>
+</div>
+)}
 
         <div className="section-title">
-          <h2>OUR SPECIALITIES</h2>
+          <h2>Our Specialities</h2>
         </div>
         <div className="row">
           {services.map((service, index) => (
@@ -166,11 +171,11 @@ const Specialities = () => {
               <div className="single-services">
                 {/* <span className={service.icon} /> */}
                 <div className="w-full flex items-center justify-center">
-               <img style={{borderRadius:"50%"}} className="w-[100px]  " src={service.roundImage} />
+               <img style={{borderRadius:"50%"}} className="h-[100px]  " src={service.roundImage} />
                </div>
                 <h3>{service.name}</h3>
                 <button className="read-more" onClick={() => openModal(service)}>
-                  Learn More <i className="bx bx-plus" />
+                  Learn More 
                 </button>
                 <div className="services-shape">
                   <img
