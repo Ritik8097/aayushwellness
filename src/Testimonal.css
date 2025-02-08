@@ -13,7 +13,7 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     position: relative;
-    height: 550px;
+    height: auto;
     justify-content: center; 
   align-items: center; 
   gap: 35px;
@@ -41,13 +41,13 @@
     font-size: 8px;
     color: #555;
     margin-bottom: 20px;
-    padding: 0 20px; 
+    padding: 0 20px;
+    padding-top: 70px; 
   }
-
-.testimonal-content p{
-    font-size: 22px;
-}
   
+  .testimonial-content p{
+    font-size: 22px;  
+  }
   .client-info {
     display: flex;
     align-items: center;
@@ -104,8 +104,8 @@
     gap: 20px;
   }
   
-  .testimonial-content {
-    font-size: 8px;  
+  .testimonial-content p{
+    font-size: 18px;  
   }
 
   .client-info {
@@ -118,7 +118,7 @@
   }
 
   .name {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .quote-icon {
@@ -146,7 +146,7 @@
   }
 
   .name {
-    font-size: 10px ;
+    font-size: 18px ;
   }
 
   .quote-icon {
@@ -179,8 +179,8 @@
 .testimonial-image {
   flex: 0 0 auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  align-items: right;
 }
 
 .testimonial-image img {
