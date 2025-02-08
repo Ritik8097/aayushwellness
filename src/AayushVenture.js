@@ -719,7 +719,7 @@ export default function AayushVenture() {
           <div>
             <div >
               <img   loading='lazy' className=" w-full hidden md:block" src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Dekstop_2_0c883aa8-68d4-4731-b8f5-09e47a6e3461.jpg?v=1738914723" alt="Slide 1" />
-              <img   loading='lazy' className="w-full block md:hidden" src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Mobile_Size.jpg?v=1738655946" alt="Slide 1" />
+              <img   loading='lazy' className="w-full block md:hidden" src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Aayush_Venture_Startup_Banner_-_3-2-2025_-_Mobile_Size_2.jpg?v=1739000349" alt="Slide 1" />
              
             </div>
            
