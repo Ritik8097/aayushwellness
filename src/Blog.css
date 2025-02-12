@@ -33,7 +33,7 @@
 .card-content p {
   color: white;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 10px;
 }
 
 /* Mobile Styles */
@@ -46,5 +46,94 @@
 @media (max-width: 480px) {
   .carousel-title {
     font-size: 18px;
+  }
+}
+
+
+.carousel-container {
+  padding: 20px;
+}
+
+.carousel-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.slide {
+  padding: 10px;
+}
+
+.mantine-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  height: 400px; /* Fix the height of the card */
+  max-width: 100%; /* Ensure card width is responsive */
+}
+
+.mantine-card-section {
+  height: 50%; /* Image will take 50% of the card's height */
+}
+
+.mantine-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mantine-card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 50%; /* Content takes the other 50% */
+  justify-content: space-between; /* Ensures proper spacing between title, description, and button */
+}
+
+.mantine-card-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+
+
+.mantine-card-description {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.mantine-card-button {
+  padding: 6px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.mantine-card-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+@media (max-width: 768px) {
+  .mantine-card {
+    height: 450px; /* Adjust height for smaller screens */
+  }
+  .mantine-card-section {
+    height: 50%; /* Image will take 50% of the card's height */
+  }
+}
+
+@media (max-width: 480px) {
+  .mantine-card {
+    height: 500px; /* Adjust height further for mobile */
   }
 }
