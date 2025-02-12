@@ -67,9 +67,7 @@ const Carousel = () => {
               <div className="mantine-card-content">
                 <p className="mantine-card-title">{item.title}</p>
                 <p className="mantine-card-description">{item.shortDescription}</p>
-                <Link to={/blog/${item.id}} className="mantine-card-button">
-                  Know More....
-                </Link>
+                <button className="mantine-card-button">Know More....</button>
               </div>
             </div>
           </div>
