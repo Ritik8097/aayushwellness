@@ -143,11 +143,12 @@
     text-shadow: 0 10px 0 #ffbebc; 
     
 } 
-
+@media screen and (min-width:700px){
 .work-bx.active .work-num-bx, .work-bx:hover .work-num-bx { 
     text-shadow: 0 10px 0 #ffbebc; 
     
 } 
+}
 
 .work-bx .work-content  { 
     transition: all 0.5s; 
@@ -261,10 +262,12 @@ h5 {
 } 
 
 /* Hover effect: Change text color to white */
+@media screen and (min-width:700px){
 .work-bx:hover .work-content h5,
 .work-bx:hover .work-content p {
     color: white;
     transition: color 0.3s ease-in-out;
+}
 }
 
 h5 { 
