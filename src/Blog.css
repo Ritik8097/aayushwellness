@@ -80,22 +80,27 @@
 
 .mantine-card-image {
   width: 100%;
-  height: 100%;
+ 
   object-fit: cover;
 }
+
+
 
 .mantine-card-content {
   padding: 20px;
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   height: 50%; /* Content takes the other 50% */
   justify-content: space-between; /* Ensures proper spacing between title, description, and button */
 }
 
 .mantine-card-title {
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  
 }
 
 
@@ -103,7 +108,7 @@
 .mantine-card-description {
   font-size: 14px;
   color: #6c757d;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .mantine-card-button {
@@ -115,6 +120,7 @@
   font-size: 14px;
   cursor: pointer;
   text-align: center;
+ 
 }
 
 .mantine-card-button:hover {
@@ -129,6 +135,14 @@
   }
   .mantine-card-section {
     height: 50%; /* Image will take 50% of the card's height */
+  }
+  .mantine-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .mantine-card-title {
+    padding-top: 0px;
   }
 }
 
