@@ -23,7 +23,7 @@ const Blog1 = () => {
         </button>
     <div className="max-w-3xl w-full">
 
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-black-600 mb-4">How the Landscape of Indian Healthcare is Shifting</h1>
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4" style={{color:'#148f83'}}>How the Landscape of Indian Healthcare is Shifting</h1>
       <img 
             src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_1_2.jpg?v=1739438063" 
             alt="Healthcare and Nutrition" 
@@ -32,19 +32,19 @@ const Blog1 = () => {
       <p className="mb-4">
         India’s healthcare sector is undergoing a massive transformation, driven by technological advancements, policy reforms, and a growing emphasis on preventive care. From digital health solutions to increased investments in infrastructure, the Indian healthcare landscape is evolving rapidly to meet the demands of its vast population. Let’s explore the key factors shaping the future of healthcare in India.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">1. The Rise of Digital Healthcare</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>1. The Rise of Digital Healthcare</h2>
       <p className="mb-4">
         One of the most significant shifts in Indian healthcare is the rapid adoption of telemedicine, AI-driven diagnostics, and digital health records. With the advent of platforms like Arogya Setu and e-Sanjeevani, accessing healthcare has become more convenient than ever. Teleconsultations have surged, especially post-pandemic, making healthcare services more accessible to remote and rural populations.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">2. Government Initiatives Driving Change</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>2. Government Initiatives Driving Change</h2>
       <p className="mb-4">
         The Indian government has been instrumental in reshaping the healthcare sector. Initiatives like Ayushman Bharat (PM-JAY), which provides free healthcare to economically weaker sections, and the National Digital Health Mission (NDHM), which aims to digitize patient health records, are making quality healthcare more affordable and efficient.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">3. The Boom in HealthTech Startups</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>3. The Boom in HealthTech Startups</h2>
       <p className="mb-4">
         India is witnessing a rise in HealthTech startups that are revolutionizing medical services through AI, IoT, and big data analytics. Companies like Practo, 1mg, and PharmEasy are transforming healthcare delivery by offering online consultations, medicine delivery, and diagnostic tests at home. This surge in innovation is improving efficiency and enhancing patient experiences.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">4. Growing Focus on Preventive Healthcare</h2>
+      <h2 className="mt-6 " style={{color:'#148f83'}}>4. Growing Focus on Preventive Healthcare</h2>
       <p className="mb-4">
         The Indian healthcare system is shifting from reactive treatment to preventive care. People are becoming more health-conscious, leading to a rise in demand for nutraceuticals, fitness apps, and wellness programs. The popularity of yoga, Ayurveda, and holistic health approaches is growing, further promoting a culture of preventive care.
       </p>
@@ -52,19 +52,19 @@ const Blog1 = () => {
       <p className="mb-4">
         With increased investments, the private healthcare sector in India is expanding significantly. Hospitals like Apollo, Fortis, and Max Healthcare are investing in state-of-the-art infrastructure, robotic surgeries, and specialized treatments, providing world-class medical care. The rise of medical tourism in India is also attracting international patients seeking affordable and high-quality healthcare services.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">6. Increased Health Insurance Penetration</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>6. Increased Health Insurance Penetration</h2>
       <p className="mb-4">
         Health insurance is becoming more popular among Indians, thanks to affordable plans, government schemes, and increased awareness. Policies such as LIC Jeevan Arogya and other private health insurance plans are making medical treatments more accessible by covering hospitalization and critical illness expenses.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">7. AI and Robotics in Healthcare</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>7. AI and Robotics in Healthcare</h2>
       <p className="mb-4">
         Artificial Intelligence (AI) and robotic-assisted surgeries are changing the way healthcare is delivered. AI-driven diagnostics are enhancing the accuracy of disease detection, while robotic surgeries are improving surgical precision and reducing recovery times.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">Challenges and the Road Ahead</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>Challenges and the Road Ahead</h2>
       <p className="mb-4">
         Despite significant progress, challenges remain in Indian healthcare. Rural healthcare infrastructure, shortage of medical professionals, and affordability issues still need to be addressed. However, with continued government support, technological advancements, and private sector investments, India is on the path to becoming a global leader in healthcare innovation.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">Conclusion</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>Conclusion</h2>
       <p className="mb-4">
         The transformation of Indian healthcare is driven by digital advancements, policy reforms, and a shift toward preventive care. As telemedicine, AI, and private healthcare investments continue to grow, India is set to become a global powerhouse in healthcare. Embracing these changes will ensure that quality healthcare reaches every corner of the country, making India a healthier nation.
       </p>
