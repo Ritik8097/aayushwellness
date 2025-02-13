@@ -48,7 +48,7 @@ const Blog1 = () => {
       <p className="mb-4">
         The Indian healthcare system is shifting from reactive treatment to preventive care. People are becoming more health-conscious, leading to a rise in demand for nutraceuticals, fitness apps, and wellness programs. The popularity of yoga, Ayurveda, and holistic health approaches is growing, further promoting a culture of preventive care.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">5. Expansion of Private Healthcare Sector</h2>
+      <h2 className="mt-6"  style={{color:'#148f83'}}>5. Expansion of Private Healthcare Sector</h2>
       <p className="mb-4">
         With increased investments, the private healthcare sector in India is expanding significantly. Hospitals like Apollo, Fortis, and Max Healthcare are investing in state-of-the-art infrastructure, robotic surgeries, and specialized treatments, providing world-class medical care. The rise of medical tourism in India is also attracting international patients seeking affordable and high-quality healthcare services.
       </p>
