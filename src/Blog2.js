@@ -22,7 +22,7 @@ const Blog2 = () => {
           <div className="w-6 h-6 border-t-4 border-l-4 border-gray-600 transform rotate- 45"></div>
         </button>
     <div className="max-w-3xl w-full">
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-black-600 mb-4">Focus on Preventive Healthcare and Nutrition Post-COVID</h1>
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4"  style={{color:'#148f83'}}>Focus on Preventive Healthcare and Nutrition Post-COVID</h1>
       <img 
             src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_2_2.jpg?v=1739438065" 
             alt="Healthcare and Nutrition" 
@@ -31,7 +31,7 @@ const Blog2 = () => {
       <p className="mb-4">
         The COVID-19 pandemic has reshaped how we perceive health and wellness. It has made one thing abundantly clear: preventive healthcare is no longer optional but essential. With the increasing awareness of immunity, nutrition, and overall well-being, people are now focusing more on building resilience against future health challenges. In this blog, we explore the importance of preventive healthcare and proper nutrition in the post-pandemic era.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">Why Preventive Healthcare Matters Post-COVID</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>Why Preventive Healthcare Matters Post-COVID</h2>
       <p className="mb-4">
         Preventive healthcare refers to proactive measures that help individuals avoid diseases rather than treating them after they occur. COVID-19 has shown us that strong immunity and overall health can make a significant difference in how our bodies fight infections. Here’s why preventive healthcare should be your top priority:
       </p>
@@ -41,7 +41,7 @@ const Blog2 = () => {
         <li><strong>Enhances Quality of Life:</strong> Staying healthy means fewer illnesses, increased energy, and a better lifestyle.</li>
         <li><strong>Detects Issues Early:</strong> Regular health checkups can detect potential diseases before they become severe.</li>
       </ul>
-      <h2 className="text-2xl font-semibold mt-6">Key Aspects of Preventive Healthcare</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>Key Aspects of Preventive Healthcare</h2>
       <h3 className="text-xl font-semibold mt-4">1. Regular Health Screenings & Checkups</h3>
       <p className="mb-4">
         Routine body tests like blood tests, cholesterol levels, and vitamin deficiencies can help detect underlying health conditions early. Post-COVID, people are encouraged to monitor their health closely.
@@ -58,7 +58,7 @@ const Blog2 = () => {
       <p className="mb-4">
         Quality sleep boosts the immune system and overall well-being. Likewise, staying hydrated supports digestion, circulation, and toxin removal from the body.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">Nutrition: The Foundation of Good Health</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>Nutrition: The Foundation of Good Health</h2>
       <p className="mb-4">
         Proper nutrition plays a crucial role in preventive healthcare. The right balance of vitamins, minerals, and macronutrients helps maintain strong immunity and overall health.
       </p>
@@ -83,7 +83,7 @@ const Blog2 = () => {
       <p className="mb-4">
         Excess sugar and processed foods can weaken the immune system. Opt for whole, natural foods for long-term health benefits.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">The Role of Supplements in Preventive Healthcare</h2>
+      <h2 className="mt-6 " style={{color:'#148f83'}}>The Role of Supplements in Preventive Healthcare</h2>
       <p className="mb-4">
         Sometimes, diet alone may not be enough to meet nutritional needs. Consider supplements like:
       </p>
@@ -93,11 +93,11 @@ const Blog2 = () => {
         <li>Probiotics for gut health</li>
         <li>Vitamin D and Calcium for bone strength</li>
       </ul>
-      <h2 className="text-2xl font-semibold mt-6">Final Thoughts</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>Final Thoughts</h2>
       <p className="mb-4">
         Preventive healthcare and proper nutrition are no longer luxuries but necessities. A balanced lifestyle, regular health checkups, and mindful eating habits are key to staying fit in the post-COVID world. Investing in your health today will ensure a stronger, healthier future.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">Take Action Now!</h2>
+      <h2 className="mt-6" style={{color:'#148f83'}}>Take Action Now!</h2>
       <p className="mb-4">
         Start incorporating these preventive healthcare measures into your routine today. Remember, your health is your greatest wealth!
       </p>
