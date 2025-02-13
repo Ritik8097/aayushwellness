@@ -86,7 +86,8 @@
     margin-top: 30px;
 } 
 
-.work-bx:after { 
+@media screen and (min-width:700px){
+    .work-bx:after { 
     content: ""; 
     height: 0; 
     width: 100%; 
@@ -105,6 +106,7 @@
     -o-transform-origin: top;
     border-radius: 15px;
 } 
+}
 
 .work-bx.active:after,.work-bx:hover:after { 
     height: 100%; 
