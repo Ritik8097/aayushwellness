@@ -1,5 +1,6 @@
 import React from "react";
-import Slider from "react-slick"; 
+import Slider from "react-slick";
+import { Link } from "react-router-dom";  
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Blog.css";
@@ -8,21 +9,21 @@ const Carousel = () => {
   const items = [
     {
       id: 1,
-      imageUrl: "https://img.freepik.com/premium-vector/woman-doing-yoga-home-studio-flat-vector-illustration_647688-24.jpg?uid=R186725298&ga=GA1.1.1760057800.1738908057&semt=ais_hybrid",
-      title: "Health Benefits of Yoga",
-      shortDescription: "Yoga is a great way to improve flexibility, strength, and mental clarity. Learn more about how yoga can enhance your health.",
-      readMoreLink: "/health-benefits-of-yoga",
+      imageUrl: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_1_2.jpg?v=1739438063",
+      title: "How the Landscape of Indian Healthcare is Shifting",
+      shortDescription: "India’s healthcare sector is undergoing a massive transformation....",
+      readMoreLink: "/Blog1",
     },
     {
       id: 2,
-      imageUrl: "https://img.freepik.com/free-photo/pile-fresh-fruits_144627-17253.jpg?uid=R186725298&ga=GA1.1.1760057800.1738908057&semt=ais_hybrid",
-      title: "10 Superfoods You Should Try",
-      shortDescription: "Discover the best superfoods that will help you boost your immune system and maintain overall health.",
-      readMoreLink: "/superfoods",
+      imageUrl: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_2_2.jpg?v=1739438065",
+      title: "Focus on Preventive Healthcare and Nutrition Post-COVID",
+      shortDescription: "The COVID-19 pandemic......... ",
+      readMoreLink: "/Blog2",
     },
     {
       id: 3,
-      imageUrl: "https://img.freepik.com/free-vector/athletic-legs-sport-fitness-hand-drawn-sketch-vector-illustration_460848-14558.jpg?uid=R186725298&ga=GA1.1.1760057800.1738908057&semt=ais_hybrid",
+      imageUrl: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_1_2.jpg?v=1739438063",
       title: "How to Stay Active in Winter",
       shortDescription: "Staying active during winter can be challenging. Here are some tips to keep fit and healthy.....",
       readMoreLink: "/stay-active-winter",
@@ -35,7 +36,7 @@ const Carousel = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     responsive: [
       {
@@ -66,7 +67,9 @@ const Carousel = () => {
               <div className="mantine-card-content">
                 <p className="mantine-card-title">{item.title}</p>
                 <p className="mantine-card-description">{item.shortDescription}</p>
-                <button className="mantine-card-button">Know More....</button>
+                <Link to={item.readMoreLink} className="mantine-card-button">
+                  Know More....
+                </Link>
               </div>
             </div>
           </div>
