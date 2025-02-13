@@ -7,10 +7,20 @@ const Blog1 = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
+
+    const handleBack = () => {
+            window.history.back();
+          };
   return (
     <>
     <Header/>
     <div className="pt-40 px-6  bg-gray-100 text-gray-900  flex justify-center">
+      <button
+          className="absolute top-[100px] left-4 md:hidden z-20 w-8 h-8 flex justify-center items-center"
+          onClick={handleBack}
+        >
+          <div className="w-6 h-6 border-t-4 border-l-4 border-gray-600 transform rotate- 45"></div>
+        </button>
     <div className="max-w-3xl w-full">
 
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-black-600 mb-4">How the Landscape of Indian Healthcare is Shifting</h1>
