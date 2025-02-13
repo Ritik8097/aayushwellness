@@ -28,6 +28,8 @@ import ProductGummies from "./ProductPageGummies";
 import ProductPageSleep from "./ProductPageSleep";
 import AayushVenture from "./AayushVenture";
 import Health from "./Health"
+import Blog1 from "./Blog1";
+import Blog2 from "./Blog2";
 
 import './index.css'
 function App() {
@@ -54,6 +56,8 @@ function App() {
 <Route  path="growth-accelerator" element={<AayushVenture />}/>
 
   <Route  path="health" element={<Health />}/>
+  <Route path="/Blog1" element={<Blog1 />} />
+    <Route path="/Blog2" element={<Blog2 />} />
 
         <Route  path="ourproduct" element={<OurProduct />}/>
         <Route path="csr-at-aayush/health-check" element={<HealthCheck/>}/>
