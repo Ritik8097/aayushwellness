@@ -17,7 +17,7 @@ const VentureSection1 = () => {
      
       <div className="overlay"></div>
        {/* Get in Touch Button */}
-       <a href="https://wa.me/918655900409?text=https://www.aayushwellness.com/aayush-venture Hi">
+       <a href="https://wa.me/918655900409?text=https://www.aayushwellness.com/growth-accelerator Hi">
        <button  className="absolute bottom-10 left-10 md:left-24 flex items-center gap-2 px-6 py-3 text-black bg-[#a8ff00] rounded-full text-lg font-medium hover:scale-105 transition">
   <span>➝</span> Get in touch
 </button>
