@@ -23,14 +23,14 @@ const Carousel = () => {
     },
    {
       id: 3,
-      imageUrl: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_1_2.jpg?v=1739438063",
+      imageUrl: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_3_insurance.jpg?v=1739601042",
       title: "Why Health Insurance is a Must-Have: Benefits & Coverage Explained",
       shortDescription: "In today's fast-paced world.....",
       readMoreLink: "/Blog3",
     },
     {
       id: 4,
-      imageUrl: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_2_2.jpg?v=1739438065",
+      imageUrl: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_4_health_check.jpg?v=1739601043",
       title: "Essential Health Checkups: What Tests You Need & Why",
       shortDescription: "Your health is your greatest asset, and regular.....",
       readMoreLink: "/Blog4",
