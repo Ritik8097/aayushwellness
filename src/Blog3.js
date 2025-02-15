@@ -36,7 +36,7 @@ const Blog3 = () => {
             Why Health Insurance is a Must-Have: Benefits & Coverage Explained
           </h1>
           <img
-            src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_1_2.jpg?v=1739438063"
+            src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_3_insurance.jpg?v=1739601042"
             alt="Healthcare and Nutrition"
             className="w-full h-auto md:h-[400px] lg:h-[500px] object-cover rounded-lg shadow-lg"
           />
