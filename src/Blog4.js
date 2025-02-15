@@ -32,6 +32,11 @@ const Blog4 = () => {
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 text-center text-teal-700">
                         Essential Health Checkups: What Tests You Need & Why
                     </h1>
+                         <img
+            src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_4_health_check.jpg?v=1739601043"
+            alt="Healthcare and Nutrition"
+            className="w-full h-auto md:h-[400px] lg:h-[500px] object-cover rounded-lg shadow-lg"
+          />
                     <p className="text-gray-700 mb-6 leading-relaxed">
                         Your health is your greatest asset, and regular health checkups play a vital role in early detection and prevention of serious illnesses.
                         Many diseases develop silently, showing no symptoms until they reach an advanced stage. That’s why routine medical tests are crucial for maintaining
