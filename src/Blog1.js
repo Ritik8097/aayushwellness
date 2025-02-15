@@ -14,7 +14,14 @@ const Blog1 = () => {
   return (
     <>
     <Header/>
-    <div className="pt-40 px-6  bg-gray-100 text-gray-900  flex justify-center">
+    <div className="pt-40 px-6  bg-gray-100 text-gray-900  flex justify-center"  style={{
+          backgroundImage:
+            'url("https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg?uid=R186725298&ga=GA1.1.1760057800.1738908057&semt=ais_hybrid")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundAttachment: "fixed",
+          minHeight: "100vh",
+        }}>
       <button
           className="absolute top-[100px] left-4 md:hidden z-20 w-8 h-8 flex justify-center items-center"
           onClick={handleBack}
