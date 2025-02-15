@@ -21,20 +21,27 @@ const Carousel = () => {
       shortDescription: "The COVID-19 pandemic......... ",
       readMoreLink: "/Blog2",
     },
-    {
+   {
       id: 3,
       imageUrl: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_1_2.jpg?v=1739438063",
-      title: "How to Stay Active in Winter",
-      shortDescription: "Staying active during winter can be challenging. Here are some tips to keep fit and healthy.....",
-      readMoreLink: "/stay-active-winter",
+      title: "Why Health Insurance is a Must-Have: Benefits & Coverage Explained",
+      shortDescription: "In today's fast-paced world.....",
+      readMoreLink: "/Blog3",
+    },
+    {
+      id: 4,
+      imageUrl: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_2_2.jpg?v=1739438065",
+      title: "Essential Health Checkups: What Tests You Need & Why",
+      shortDescription: "Your health is your greatest asset, and regular.....",
+      readMoreLink: "/Blog4",
     }
   ];
 
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: Math.min(items.length, 3),
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 3000,
@@ -42,7 +49,7 @@ const Carousel = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: Math.min(items.length, 2),
         },
       },
       {
