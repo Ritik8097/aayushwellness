@@ -41,10 +41,10 @@ export default function AnimatedSlider() {
 
   const videos = {
     desktop: {
-      src: 'https://cdn.shopify.com/videos/c/o/v/fd45be6cc30a4a5d845a534b974732cf.mp4',     
+      src: 'https://cdn.shopify.com/videos/c/o/v/866dd64c7e6f40929666f5e12c5ad0d1.mp4',     
     },
     mobile: {
-      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/sample-mobile-video.mp4',
+      src: 'https://cdn.shopify.com/videos/c/o/v/b337ff7b84f641f8a4920f8e1e865278.mp4',
     },
   };
 
