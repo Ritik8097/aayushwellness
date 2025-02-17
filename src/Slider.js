@@ -10,55 +10,21 @@ import menu from './images/menu.png';
 import closepng from './images/close.png';
 import searchIcon from './images/search-gray.svg'
 
-function AnimatedText({  heading, subtext,url, buttonText, isVisible }) {
-
- 
-
-
-  
-  return (
-    
-    <div className="absolute  md:justify-start md:items-center  pt-[120px] inset-0 flex items-start justify-center px-6 md:px-12 ">
-      <div
-        className={`max-w-lg bg-opacity-75 p-6  text-white space-y-4 transition-all duration-[1000ms] ease-out ${
-          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-40'
-        }`}
-      >
-       
-        <h2 className="text-[22px] text-white md:text-3xl font-bold transition-all duration-[1000ms] ease-out delay-500">
-          {heading}
-        </h2>
-        <div style={{borderLeft:'1px solid white', marginLeft:" 10px", padding:"0px 15px"}}>
-        <p className="text-sm md:text-base font-light italic transition-all duration-[1000ms] ease-out delay-700  pb-3">
-          {subtext}
-        </p>
-        <a href={url}>
-        <button style={{backgroundColor:" black"}} className="px-4 py-2  text-white font-medium rounded-md  transition-all duration-[1000ms] ease-out delay-900">
-          {buttonText} →
-        </button>
-        </a>
-        </div>
-      </div>
-    </div>
-  );
-}
 
 export default function AnimatedSlider() {
-  const [isMobile, setIsMobile] = useState(false);
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [isVisible, setIsVisible] = useState(false);
   const sliderRef = useRef(null);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
-    handleResize(); // Set initial state
     window.addEventListener('resize', handleResize);
 
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsVisible(entry.isIntersecting);
       },
-      { threshold: 0.1 } // Trigger when 10% of the slider is visible
+      { threshold: 0.1 }
     );
 
     if (sliderRef.current) {
@@ -73,99 +39,18 @@ export default function AnimatedSlider() {
     };
   }, []);
 
-  const desktopImages = [
-    {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_Slider_Banner_3_-_1920px_X_1080px_1.jpg?v=1734763400',
-       heading: 'Life Long Wellness',
-      subtext: 'Taste Wellness , Embrace Nutrition : Aayush Your Gatway To Good Health ',
-      url:"/wellness/health-wellness",
-      buttonText: 'Explore more',
+  const videos = {
+    desktop: {
+      src: 'https://cdn.shopify.com/videos/c/o/v/fd45be6cc30a4a5d845a534b974732cf.mp4',     
     },
-    {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Pan_Masala_Main_slider_Banner_-_1920px_X_1080px.jpg?v=1736338517',
-     heading: 'Your Health , Our Priority',
-      subtext: 'Tobacco-Free, Ayurveda Rich Solution',
-      url:"/wellness/modern-science",
-      buttonText: 'View details',
+    mobile: {
+      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/sample-mobile-video.mp4',
     },
-    {
-      src:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Beauty_Gummies_banner_-_Product_Page_-_18-10-2024_-_1920x1080_1_-_Copy.gif?v=1736339394",
-      heading: '',
-      subtext: '',
-      url:"https://aayushlife.com/",
-      buttonText: 'Buy Now',
-    },
-   
-    {
-      src:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Sleep_Gummies_banner_-_Product_Page_-_18-10-2024_-_1920x1080_161abdfb-3679-47a1-9231-d56b242b2829.gif?v=1736339393",
-      heading: '',
-      subtext: '',
-      url:"https://aayushlife.com/",
-      buttonText: 'Buy Now',
-    },
-
-    {
-      src:"https://cdn.shopify.com/s/files/1/0653/9830/9053/files/AW_Slider_Banner_8_-_1920px_X_1080px.jpg?v=1734762713",
-        heading: 'Transforming Habits ',
-      subtext: 'Transforming Lives',
-      url:"/ayurveda",
-      buttonText: 'Explore more',
-    }
-  ];
-
-  const mobileImages = [
-    {
-      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_5_new_2.jpg?v=1737092567',
-      heading: 'Life Long Wellness',
-      subtext: 'Taste Wellness , Embrace Nutrition : Aayush Your Gatway To Good Health ',
-      url:"/wellness/health-wellness",
-      buttonText: 'Explore more',
-    },
-   
-    {
-      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_5-2_new_2.jpg?v=1737092568',
-     heading: 'Your Health , Our Priority',
-      subtext: 'Tobacco-Free, Ayurveda Rich Solution',
-      url:"/wellness/modern-science",
-      buttonText: 'View details',
-    },
-    {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/beauty_gif_1.gif?v=1736833127',
-      heading: '',
-      subtext: '',
-      url:"https://aayushlife.com/",
-      buttonText: 'Buy Now',
-    },
-    {
-      src: 'https://cdn.shopify.com/s/files/1/0653/9830/9053/files/sleep_gif_1.gif?v=1736833128',
-      heading: '',
-      subtext: '',
-      url:"https://aayushlife.com/",
-      buttonText: 'Buy Now',
-    },
-    {
-      src: 'https://cdn.shopify.com/s/files/1/0674/9614/9171/files/BANNER_5-5_new_2.jpg?v=1737092568',
-      heading: 'Transforming Habits ',
-      subtext: 'Transforming Lives',
-      url:"/ayurveda",
-      buttonText: 'Explore more',
-    },
-  ];
-
-  const images = isMobile ? mobileImages : desktopImages;
-
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 9000,
-    arrows: false,
-    pauseOnHover: false,
-    beforeChange: (_, next) => setCurrentSlide(next),
   };
+
+  const selectedVideo = isMobile ? videos.mobile : videos.desktop;
+
+  
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isAyurvedaDropdownOpen, setIsAyurvedaDropdownOpen] = useState(false);
@@ -497,27 +382,16 @@ export default function AnimatedSlider() {
         </nav> 
 
 
-    <div className="relative" ref={sliderRef}>
-      <Slider {...sliderSettings}>
-        {images.map((image, index) => (
-          <div key={index} className="relative">
-            <img
-              loading={index === 0 ? 'eager' : 'lazy'}
-              className="w-full h-[100vh] J object-cover"
-              src={image.src}
-              alt={`Slide ${index + 1}`}
-            />
-            <AnimatedText
-            
-              heading={image.heading}
-              subtext={image.subtext}
-              url ={image.url}
-              buttonText={image.buttonText}
-              isVisible={isVisible && currentSlide === index}
-            />
-          </div>
-        ))}
-      </Slider>
+        <div className="relative" ref={sliderRef}>
+      <video
+        className="w-full h-[100vh] object-cover"
+        src={selectedVideo.src}
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+      
     </div>
     </>
   );
