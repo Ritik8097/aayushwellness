@@ -316,6 +316,8 @@ export default function AnimatedSlider() {
                   </div>
     
                   <Link to="/career" className=" hover:text-primary/80">Careers</Link>
+   <Link to="/health" className=" hover:text-primary/80">Health</Link>
+                  <Link to="/growth-accelerator" className=" hover:text-primary/80">Growth accelerator</Link>
                   <Link to="/support" className=" hover:text-primary/80">Support</Link>
                   
                 
@@ -483,6 +485,8 @@ export default function AnimatedSlider() {
                 </div>
     
                 <Link to="/career" className="block py-2 px-4  hover:text-primary/80">Careers</Link>
+                 <Link to="/health" className="block py-2 px-4 hover:text-primary/80">Health</Link>
+                  <Link to="/growth-accelerator" className="block py-2 px-4 hover:text-primary/80">Growth accelerator</Link>
                 <Link to="/support" className="block py-2 px-4  hover:text-primary/80">Support</Link>
               </div>
               
