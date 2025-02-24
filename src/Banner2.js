@@ -10,7 +10,7 @@ const Banner2 = () => {
           <div className="first-facility-item">
             <div className="facility-content">
               <img 
-                src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_D1.png?v=1738927081" 
+                src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_10.png?v=1740143637" 
                 alt="Instant Doctor Consultation Icon" 
                 className="facility-icon"
               />
@@ -22,7 +22,7 @@ const Banner2 = () => {
           <div className="first-facility-item">
             <div className="facility-content">
               <img 
-                src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_D2.png?v=1738927080" 
+                src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_11_04ce51ed-ca27-4d60-b5e2-80a3e745ad46.png?v=1740143881" 
                 alt="Doctors Serve Online Icon" 
                 className="facility-icon"
               />
@@ -34,7 +34,7 @@ const Banner2 = () => {
           <div className="first-facility-item">
             <div className="facility-content">
               <img 
-                src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_D3.png?v=1738927080" 
+                src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/icons_9.png?v=1740143637" 
                 alt="Digital Clinics of India Icon" 
                 className="facility-icon"
               />
