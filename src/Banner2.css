@@ -1,5 +1,5 @@
 .first-facility-area { 
-    background-color: #d6fbfd; 
+    background-color: #233f8f; 
     position: relative; 
     left: 0; 
     bottom: 0; 
@@ -182,7 +182,7 @@ h3 {
 }     
 
 h3 { 
-    color: var(--primary-dark); 
+    color: white; 
     font-weight: 700; 
     font-family: Roboto,sans-serif;
 } 
