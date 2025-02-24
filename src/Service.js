@@ -11,7 +11,7 @@ const Service = () => {
   </div>
     <div  
     style={{
-          backgroundImage: "url('https://cdn.shopify.com/s/files/1/0653/9830/9053/files/2.jpg?v=1738915712')",
+          backgroundImage: "url('https://cdn.shopify.com/s/files/1/0653/9830/9053/files/2_jpg.png?v=1740143293')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
