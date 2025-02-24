@@ -1,3 +1,4 @@
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -8,45 +9,45 @@ import './Testimonal.css';
 
 const testimonials = [
   {
-    name: "Rajesh Verma",
+    name: "Tejas Yadav",
     role: "Patient",
     feedback:
-      "The comprehensive care I received at this hospital was truly outstanding. From diagnosis to treatment, every step was well-coordinated, and the medical team ensured I was comfortable throughout. Highly recommend their services!  ",
+      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. Now about Dr. Kant Shah, he certainly knows how to keep the patients and their parents relaxed at all times while also encompassing ample patience to not only understand the condition of the patient but also answer each and every query no matter how long it takes.",
     image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_1.png?v=1738994293",
   },
   {
     name: "Karan Talreja",
     role: "Patient",
     feedback:
-      "I recently explored their franchise model, and I must say, their approach to healthcare excellence is unmatched. The business model is well-structured, making it a lucrative opportunity for investors and entrepreneurs. ",
+      "One of the best doctors in Mumbai would be an understatement. ",
     image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_2.png?v=1738994293",
   },
   {
-    name: "Prakash Iyer",
+    name: "Tasmay Ved",
     role: "Patient",
     feedback:
-      "Holistic wellness is at the core of this healthcare facility. They don't just treat illnesses; they focus on overall well-being with personalized diet plans, stress management, and fitness guidance. A true game-changer! ",
+      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. .",
     image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_3.png?v=1738994294",
   },
   {
-    name: "Anjali Sharma",
+    name: "Radhika Singh",
     role: "Patient",
     feedback:
-      "I recently underwent an advanced surgery here, and the expertise of the doctors was remarkable. The modern technology and skilled surgeons made my recovery quick and smooth. Grateful for the care and attention! ",
+      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. Now about Dr. Kant Shah, he certainly knows how to keep the patients and their parents relaxed at all times while also encompassing ample patience to not only understand ",
     image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_4.png?v=1738994293",
   },
   {
-    name: "Amit Tandon",
+    name: "CA Piyush Gupta",
     role: "Patient",
     feedback:
-      "The expert medical team here is highly knowledgeable and compassionate. They take the time to explain everything in detail and ensure patients feel safe and confident about their treatments. Truly professional!",
+      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. Now about Dr. Kant Shah, he certainly knows how to keep the patients and their parents relaxed at all times while also encompassing ample patience to not only understand ",
     image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_5.png?v=1738994293",
   },
   {
-    name: " Vikram Mehta",
+    name: "Dhruv Shelke",
     role: "Patient",
     feedback:
-      " I recently explored their franchise model, and I must say, their approach to healthcare excellence is unmatched. The business model is well-structured, making it a lucrative opportunity for investors and entrepreneurs. ",
+      "One of the best doctors in Mumbai would be an understatement. The staff at BHC are very polite, helpful, and approachable. The entire staff has created a very friendly atmosphere. The hospital is very neat, clean, and hygienic. Now about Dr. Kant Shah, he certainly knows how to keep the patients and their parents relaxed at all times while also encompassing ample patience to not only understand ",
     image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_review_7.png?v=1738994294",
   },
 ];
@@ -57,7 +58,7 @@ export default function TestimonialSlider() {
       <div className="testimonial-wrapper">
         {/* Center Image */}
         <div className="testimonial-image">
-        <img src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_image.png?v=1738913790" alt="Testimonial" />
+        <img src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/testimonial_image_75b9bd68-d369-467a-bbc0-d968f4fa37e8.png?v=1740217643" alt="Testimonial" />
 
         </div>
 
