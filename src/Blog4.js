@@ -29,21 +29,21 @@ const Blog4 = () => {
                     <div className="w-6 h-6 border-t-4 border-l-4 border-gray-600 transform rotate-45"></div>
                 </button>
                 <div className="max-w-3xl w-full">
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 text-center text-teal-700">
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 text-center text-teal-700" style={{ color: '#ed1b26' }}>
                         Essential Health Checkups: What Tests You Need & Why
                     </h1>
-                         <img
-            src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/BLOG_4_health_check.jpg?v=1739601043"
-            alt="Healthcare and Nutrition"
+                    <img 
+            src="https://cdn.shopify.com/s/files/1/0636/5226/6115/files/BLOG_4_health_check.jpg?v=1740228530" 
+            alt="Healthcare and Nutrition" 
             className="w-full h-auto md:h-[400px] lg:h-[500px] object-cover rounded-lg shadow-lg"
           />
-                    <p className="text-gray-700 mb-6 leading-relaxed">
+                    <p className="text-gray-700 mb-6 text-black">
                         Your health is your greatest asset, and regular health checkups play a vital role in early detection and prevention of serious illnesses.
                         Many diseases develop silently, showing no symptoms until they reach an advanced stage. That’s why routine medical tests are crucial for maintaining
                         good health and ensuring a long, disease-free life.
                     </p>
                     
-                    <h2 className="mt-6" style={{ color: '#148f83' }}>Why Are Health Checkups Important?</h2>
+                    <h2 className="mt-6" style={{ color: '#233f8f' }}>Why Are Health Checkups Important?</h2>
                     <ul className="text-gray-700 mb-4 leading-relaxed list-disc pl-6">
                         <li>Early disease detection – Catching diseases like diabetes, heart conditions, or cancer at an early stage increases the chances of effective treatment.</li>
                         <li>Preventive care – Regular screenings can help prevent potential health issues before they become serious.</li>
@@ -51,7 +51,7 @@ const Blog4 = () => {
                         <li>Peace of mind – Knowing that your body is functioning properly can reduce stress and improve quality of life.</li>
                     </ul>
                     
-                    <h2 className="mt-6" style={{ color: '#148f83' }}>Essential Health Checkups You Shouldn’t Ignore</h2>
+                    <h2 className="mt-6" style={{ color: '#233f8f' }}>Essential Health Checkups You Shouldn’t Ignore</h2>
                     <ul className="text-gray-700 mb-4 leading-relaxed list-disc pl-6">
                         <li>Complete Blood Count (CBC) – Helps detect infections, anemia, and even leukemia.</li>
                         <li>Lipid Profile – Measures cholesterol levels to prevent heart diseases.</li>
@@ -65,15 +65,15 @@ const Blog4 = () => {
                         <li>Cancer Screenings – Includes Pap Smear, Mammogram, PSA Test, and Colonoscopy.</li>
                     </ul>
                     
-                    <h2 className="mt-6" style={{ color: '#148f83' }}>When Should You Get These Tests Done?</h2>
-                    <p className="text-gray-700 mb-4 leading-relaxed">
+                    <h2 className="mt-6" style={{ color: '#233f8f' }}>When Should You Get These Tests Done?</h2>
+                    <p className="text-gray-700 mb-4 text-black">
                         <strong>Young adults (20-30 years):</strong> Every 2-3 years, unless advised otherwise.<br />
                         <strong>Middle-aged adults (30-50 years):</strong> Every 1-2 years, with additional focus on cholesterol, diabetes, and heart health.<br />
                         <strong>Seniors (50+ years):</strong> Annual checkups with cancer screenings and heart health monitoring.
                     </p>
                     
-                    <h2 className="mt-6" style={{ color: '#148f83' }}>Conclusion</h2>
-                    <p className="text-gray-700 mb-6 leading-relaxed">
+                    <h2 className="mt-6" style={{ color: '#233f8f' }}>Conclusion</h2>
+                    <p className="text-gray-700 mb-6 text-black">
                         Regular health checkups are an investment in your well-being. Prevention is always better than cure, and taking proactive steps towards your health
                         can save you from severe medical complications. Schedule your health tests today and stay ahead of potential health risks!
                     </p>
