@@ -18,7 +18,7 @@
 }     
 
 :root { 
-    --primary-theme: #0cb8b6; 
+    --primary-theme: #23408e !important; 
     --primary-dark: #001430;
 } 
 
@@ -103,7 +103,7 @@
 h2 { 
     margin-top: 0; 
     margin-bottom: .5rem; 
-    font-weight: 500; 
+    font-weight: 700; 
     line-height: 1.2;
 } 
 
@@ -118,11 +118,6 @@ h2 {
   } 
 }     
 
-h2 { 
-    color: var(--primary-dark); 
-    font-weight: 700; 
-    font-family: Roboto,sans-serif;
-} 
 
 .section-title h2  { 
     font-size: 30px; 
@@ -186,7 +181,7 @@ p:last-child {
 
 .single-services { 
     text-align: center; 
-    background-color: #e7e5e5; 
+    background-color: #d3d7db; 
     -webkit-box-shadow: 0 0 20px 3px rgba(0,0,0,.05); 
     box-shadow: 0 0 20px 3px rgba(134, 134, 134, 0.05);
     
@@ -372,17 +367,6 @@ a {
     font-size: 13px;
 } 
 
-a:hover { 
-    color: #0a58ca;
-} 
-
-a,a:hover { 
-    text-decoration: none;
-} 
-
-a:hover { 
-    color: var(--primary-dark);
-} 
 
 .read-more:hover { 
     color: var(--primary-theme);
@@ -484,7 +468,7 @@ img {
 
 
 .bg-wrapper {
-    background-image: url('https://cdn.shopify.com/s/files/1/0653/9830/9053/files/1_c0dbdc73-e491-4c55-96a1-2215dcf7fe0b.jpg?v=1738915774');
+    background-image: url('https://cdn.shopify.com/s/files/1/0653/9830/9053/files/1_jpg.png?v=1740143293');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -495,3 +479,9 @@ img {
     position: relative;
     
   }
+
+
+
+.image img{
+    padding: 0px;
+}
