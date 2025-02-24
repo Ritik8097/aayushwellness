@@ -48,7 +48,7 @@ const Blogg = () => {
     <>
     <div className="blog-title ">
     
-    <h2>OUR BLOGS</h2>
+    <h2>BLOGS</h2>
    
   </div>
     <div className="blogg-wrapper"> {/* Centering Wrapper */}
